@@ -1,0 +1,11 @@
+{
+  "dataset": "test",
+  "version": "0.1.0",
+  "samples": [
+    {
+      "id": "sample-001",
+      "text": "Ceci est un exemple minimal.",
+      "label": "test"
+    }
+  ]
+}

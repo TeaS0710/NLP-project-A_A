@@ -1,0 +1,22 @@
+{
+  "project": "ml_pipeline_bootstrap",
+  "status": "initialized",
+  "steps": {
+    "extract": {
+      "done": false,
+      "output": "data/work/extracted.json"
+    },
+    "prepare": {
+      "done": false,
+      "output": "data/work/prepared.json"
+    },
+    "train": {
+      "done": false,
+      "output": "data/work/model.joblib"
+    },
+    "evaluate": {
+      "done": false,
+      "output": "data/work/evaluation.json"
+    }
+  }
+}

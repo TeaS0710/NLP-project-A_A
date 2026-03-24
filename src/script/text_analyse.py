@@ -1,24 +1,26 @@
-"""Text analysis helpers for NLP features."""
+"""Analyse texte avec spaCy."""
 
+import argparse
 from pathlib import Path
+import pandas as pd
+
+CORPUS_PATH = Path("data/corpus/sample_corpus.json")
+OUTPUT_PATH = Path("data/work/text_features.json")
+SPACY_MODEL = "fr_core_news_md"
 
 
-RAW_DIR = Path("data/raw")
-WORK_DIR = Path("data/work")
+def analyze_text(corpus_path: Path = CORPUS_PATH, output_path: Path = OUTPUT_PATH, model: str = SPACY_MODEL) -> Path:
+    # pd.read_json(corpus_path) -> spacy.load(model) -> doc.vector + n_tokens -> df.to_json(output_path)
+    pass
 
 
-def analyze_text() -> dict:
-    """Describe the text analysis artifact."""
-    return {
-        "text_path": str(RAW_DIR / "sample_text.txt"),
-        "features_path": str(WORK_DIR / "text_features.json"),
-        "status": "todo",
-    }
-
-
-def main() -> None:
-    info = analyze_text()
-    print("Text analysis ready:", info)
+def main():
+    p = argparse.ArgumentParser()
+    p.add_argument("--corpus", type=Path, default=CORPUS_PATH)
+    p.add_argument("--output", type=Path, default=OUTPUT_PATH)
+    p.add_argument("--model", type=str, default=SPACY_MODEL)
+    a = p.parse_args()
+    analyze_text(a.corpus, a.output, a.model)
 
 
 if __name__ == "__main__":

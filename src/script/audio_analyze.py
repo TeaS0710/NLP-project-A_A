@@ -1,24 +1,24 @@
-"""Audio analysis helpers for signal-level features."""
+"""Analyse audio avec wav2vec2."""
 
+import argparse
 from pathlib import Path
+import pandas as pd
+
+CORPUS_PATH = Path("data/corpus/sample_corpus.json")
+OUTPUT_PATH = Path("data/work/audio_features.json")
 
 
-RAW_DIR = Path("data/raw")
-WORK_DIR = Path("data/work")
+def analyze_audio(corpus_path: Path = CORPUS_PATH, output_path: Path = OUTPUT_PATH) -> Path:
+    # pd.read_json(corpus_path) -> librosa + Wav2Vec2 (mean pooling) -> df.to_json(output_path)
+    pass
 
 
-def analyze_audio() -> dict:
-    """Describe the audio analysis artifact."""
-    return {
-        "audio_path": str(RAW_DIR / "sample_audio.mp3"),
-        "features_path": str(WORK_DIR / "audio_features.json"),
-        "status": "todo",
-    }
-
-
-def main() -> None:
-    info = analyze_audio()
-    print("Audio analysis ready:", info)
+def main():
+    p = argparse.ArgumentParser()
+    p.add_argument("--corpus", type=Path, default=CORPUS_PATH)
+    p.add_argument("--output", type=Path, default=OUTPUT_PATH)
+    a = p.parse_args()
+    analyze_audio(a.corpus, a.output)
 
 
 if __name__ == "__main__":

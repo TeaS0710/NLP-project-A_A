@@ -1,11 +1,18 @@
 {
-  "dataset": "test",
-  "version": "0.1.0",
-  "samples": [
+  "version": "0.2.0",
+  "description": "Corpus binaire audio+transcription — label 1 (oui) / 0 (non)",
+  "data": [
     {
-      "id": "sample-001",
-      "text": "Ceci est un exemple minimal.",
-      "label": "test"
+      "id": "001",
+      "audio": "data/raw/sample_audio.mp3",
+      "text": "Oui, je confirme que c'est bien le cas.",
+      "label": 1
+    },
+    {
+      "id": "002",
+      "audio": "data/raw/sample_audio.mp3",
+      "text": "Non, cette affirmation est incorrecte.",
+      "label": 0
     }
   ]
 }

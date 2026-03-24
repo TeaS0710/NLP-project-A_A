@@ -1,80 +1,85 @@
-# ML Pipeline Skeleton
+# Pipeline NLP audio+texte
 
-Base minimale pour un projet de machine learning orienté texte et audio.
+Classification binaire supervisee (1=oui / 0=non) a partir d'audio et de leurs transcriptions.
 
 ## Structure
 
 ```text
 .
-├── README.md
-├── data
-│   ├── corpus
-│   │   └── sample_corpus.json
-│   ├── raw
+├── requirements.txt
+├── Makefile
+├── data/
+│   ├── raw/
 │   │   ├── sample_audio.mp3
 │   │   └── sample_text.txt
-│   └── work
-│       └── work.json
-└── src
-    └── script
-        ├── __init__.py
-        ├── asr.py
+│   ├── corpus/
+│   │   └── sample_corpus.json
+│   └── work/               <- artefacts generes, ne pas versionner
+│       ├── audio_features.json
+│       ├── text_features.json
+│       ├── prepared.json
+│       ├── model/
+│       └── evaluation.json
+└── src/
+    └── script/
         ├── audio_analyze.py
-        ├── evaluate.py
-        ├── extract.py
-        ├── prepare.py
         ├── text_analyse.py
-        └── train.py
+        ├── prepare.py
+        ├── train.py
+        └── evaluate.py
 ```
 
-## Conventions de base
+## Conventions
 
-- Garder `data/raw/` pour les sources brutes, jamais modifiées.
-- Écrire les artefacts intermédiaires dans `data/work/`.
-- Conserver les exemples de corpus versionnés dans `data/corpus/`.
-- Utiliser un module Python par étape métier.
-- Prévoir un `main()` simple dans chaque script pour tester rapidement.
-
-## Pipeline minimal
-
-1. `extract` lit les fichiers bruts et référence les entrées.
-2. `prepare` nettoie et structure les données.
-3. `train` entraîne un modèle de base.
-4. `evaluate` calcule les métriques.
-5. `asr`, `audio_analyze` et `text_analyse` couvrent les traitements spécialisés.
-
-## Lancement rapide
-
-```bash
-python -m src.script.extract
-python -m src.script.prepare
-python -m src.script.train
-python -m src.script.evaluate
-```
-
-Ou via `make` :
-
-```bash
-make help
-make pipeline
-make asr
-make audio
-make text
-```
+- `data/raw/` contient les sources brutes, jamais modifiees.
+- `data/corpus/` contient le corpus versionne (audio + transcription + label).
+- `data/work/` recoit tous les artefacts intermediaires (gitignore).
+- Un module Python par etape, chaque script est executable directement.
+- `pandas` pour la manipulation des donnees, `glob` pour la decouverte de fichiers.
 
 ## Diagramme
 
 ```mermaid
-flowchart LR
-    A[data/raw] --> B[extract]
-    B --> C[prepare]
-    C --> D[train]
-    D --> E[evaluate]
-    A --> F[asr]
-    A --> G[audio_analyze]
-    A --> H[text_analyse]
-    F --> I[data/work]
-    G --> I
-    H --> I
-    E --> I
+flowchart TD
+    RAW["data/raw/\naudio + transcriptions"]
+    CORPUS["data/corpus/\nsample_corpus.json"]
+
+    subgraph Extraction
+        AUDIO["audio_analyze.py\nwav2vec2"]
+        TEXT["text_analyse.py\nspaCy"]
+    end
+
+    subgraph ML
+        PREP["prepare.py\nfusion + split train/dev"]
+        TRAIN["train.py\nspaCy textcat"]
+        EVAL["evaluate.py\naccuracy / F1"]
+    end
+
+    OUT["data/work/\nevaluation.json"]
+
+    RAW --> CORPUS
+    CORPUS --> AUDIO
+    CORPUS --> TEXT
+    AUDIO --> PREP
+    TEXT --> PREP
+    PREP --> TRAIN
+    TRAIN --> EVAL
+    EVAL --> OUT
+```
+
+## Lancement
+
+```bash
+make install    # installe les dependances
+make pipeline   # execute tout le pipeline
+```
+
+Ou etape par etape :
+
+```bash
+make audio
+make text
+make prepare
+make train
+make evaluate
 ```

@@ -1,20 +1,27 @@
 PYTHON ?= python3
 
-.PHONY: help extract prepare train evaluate pipeline asr audio text
+.PHONY: help install audio text prepare train evaluate pipeline
 
 help:
-	@echo "Targets disponibles:"
-	@echo "  make extract"
-	@echo "  make prepare"
-	@echo "  make train"
-	@echo "  make evaluate"
-	@echo "  make pipeline"
-	@echo "  make asr"
-	@echo "  make audio"
-	@echo "  make text"
+	@echo "Pipeline NLP audio+texte (wav2vec2 + spaCy)"
+	@echo ""
+	@echo "  install  installe les dependances (requirements.txt)"
+	@echo "  audio    analyse audio avec wav2vec2"
+	@echo "  text     analyse texte avec spaCy"
+	@echo "  prepare  fusion features + split train/dev"
+	@echo "  train    entraine le classifieur spaCy textcat"
+	@echo "  evaluate evalue le modele sur le jeu de dev"
+	@echo "  pipeline execute tout le pipeline"
 
-extract:
-	$(PYTHON) -m src.script.extract
+install:
+	$(PYTHON) -m pip install -r requirements.txt
+	$(PYTHON) -m spacy download fr_core_news_md
+
+audio:
+	$(PYTHON) -m src.script.audio_analyze
+
+text:
+	$(PYTHON) -m src.script.text_analyse
 
 prepare:
 	$(PYTHON) -m src.script.prepare
@@ -25,13 +32,4 @@ train:
 evaluate:
 	$(PYTHON) -m src.script.evaluate
 
-pipeline: extract prepare train evaluate
-
-asr:
-	$(PYTHON) -m src.script.asr
-
-audio:
-	$(PYTHON) -m src.script.audio_analyze
-
-text:
-	$(PYTHON) -m src.script.text_analyse
+pipeline: audio text prepare train evaluate

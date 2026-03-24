@@ -1,22 +1,11 @@
 {
-  "project": "ml_pipeline_bootstrap",
+  "project": "nlp_audio_text_pipeline",
   "status": "initialized",
   "steps": {
-    "extract": {
-      "done": false,
-      "output": "data/work/extracted.json"
-    },
-    "prepare": {
-      "done": false,
-      "output": "data/work/prepared.json"
-    },
-    "train": {
-      "done": false,
-      "output": "data/work/model.joblib"
-    },
-    "evaluate": {
-      "done": false,
-      "output": "data/work/evaluation.json"
-    }
+    "audio_analyze": { "done": false, "output": "data/work/audio_features.json" },
+    "text_analyse":  { "done": false, "output": "data/work/text_features.json" },
+    "prepare":       { "done": false, "output": "data/work/prepared.json" },
+    "train":         { "done": false, "output": "data/work/model/" },
+    "evaluate":      { "done": false, "output": "data/work/evaluation.json" }
   }
 }

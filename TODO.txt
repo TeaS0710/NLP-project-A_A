@@ -1,2 +1,3 @@
 Parser l'ens. des .cha en JSON, en lien avec la structure (converver les POS & metadata)
 réaliser le pipeline de scrapping to scrap website chiant (JS & html) bref faire le truc
+puis après réaliser le travail sur l'extract & le ML du pipeline, en fonction des contraintes nous pourrons exploiter Ollama pour normaliser

@@ -43,7 +43,8 @@ Classification binaire supervisee (1=oui / 0=non) a partir d'audio et de leurs t
 flowchart TD
     RAW["data/raw/\naudio + transcriptions"]
     CORPUS["data/corpus/\nsample_corpus.json"]
-
+    AUDIO_WORK["data/corpus/\naudio_corpus.wav"]
+    
     subgraph Extraction
         AUDIO["audio_analyze.py\nwav2vec2"]
         TEXT["text_analyse.py\nspaCy"]
@@ -58,7 +59,9 @@ flowchart TD
     OUT["data/work/\nevaluation.json"]
 
     RAW --> CORPUS
+    RAW --> AUDIO_WORK
     CORPUS --> TEXT
+    AUDIO_WORK --> AUDIO
     AUDIO --> PREP
     TEXT --> PREP
     PREP --> TRAIN

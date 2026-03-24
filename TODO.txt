@@ -1,0 +1,2 @@
+Parser l'ens. des .cha en JSON, en lien avec la structure (converver les POS & metadata)
+réaliser le pipeline de scrapping to scrap website chiant (JS & html) bref faire le truc

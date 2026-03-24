@@ -58,7 +58,6 @@ flowchart TD
     OUT["data/work/\nevaluation.json"]
 
     RAW --> CORPUS
-    CORPUS --> AUDIO
     CORPUS --> TEXT
     AUDIO --> PREP
     TEXT --> PREP

@@ -1,7 +1,4 @@
 # Audio
-librosa
-transformers
-torch
 
 # NLP
 spacy

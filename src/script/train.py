@@ -1,26 +1,41 @@
-"""Entrainement classifieur binaire spaCy textcat (OUI=1 / NON=0)."""
+"""Train : textcat spaCy binaire HEALTHY vs SICK."""
 
-import argparse
+import json
+import random
 from pathlib import Path
-import pandas as pd
 
-PREPARED_PATH = Path("data/work/prepared.json")
-MODEL_PATH    = Path("data/work/model")
-N_ITER        = 20
-
-
-def train_model(prepared_path: Path = PREPARED_PATH, model_path: Path = MODEL_PATH, n_iter: int = N_ITER) -> Path:
-    # spacy.blank + textcat(OUI/NON) -> nlp.initialize + nlp.update x n_iter -> nlp.to_disk
-    pass
+import spacy
+from spacy.training import Example
+from spacy.util import minibatch, compounding
 
 
 def main():
-    p = argparse.ArgumentParser()
-    p.add_argument("--prepared", type=Path, default=PREPARED_PATH)
-    p.add_argument("--model", type=Path, default=MODEL_PATH)
-    p.add_argument("--n-iter", type=int, default=N_ITER)
-    a = p.parse_args()
-    train_model(a.prepared, a.model, a.n_iter)
+    with open("data/work/prepared.json", encoding="utf-8") as f:
+        data = json.load(f)
+
+    nlp = spacy.blank("en")
+    textcat = nlp.add_pipe("textcat")
+    textcat.add_label("HEALTHY")
+    textcat.add_label("SICK")
+
+    train_examples = [
+        Example.from_dict(nlp.make_doc(ex["text"]), {"cats": ex["cats"]})
+        for ex in data["train"]
+    ]
+
+    nlp.initialize(get_examples=lambda: train_examples)
+
+    random.seed(42)
+    for i in range(20):
+        random.shuffle(train_examples)
+        losses = {}
+        for batch in minibatch(train_examples, size=compounding(4.0, 32.0, 1.001)):
+            nlp.update(batch, losses=losses)
+        print(f"[train] iter {i+1:>2}/20  loss={losses['textcat']:.4f}")
+
+    Path("data/work/model").mkdir(parents=True, exist_ok=True)
+    nlp.to_disk("data/work/model")
+    print("[train] modele -> data/work/model")
 
 
 if __name__ == "__main__":

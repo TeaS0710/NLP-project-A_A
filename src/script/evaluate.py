@@ -1,26 +1,39 @@
-"""Evaluation du classifieur sur le jeu de dev."""
+"""Evaluate : teste le modele sur le dev set."""
 
-import argparse
+import json
 from pathlib import Path
-import pandas as pd
 
-PREPARED_PATH = Path("data/work/prepared.json")
-MODEL_PATH    = Path("data/work/model")
-OUTPUT_PATH   = Path("data/work/evaluation.json")
-
-
-def evaluate_model(prepared_path: Path = PREPARED_PATH, model_path: Path = MODEL_PATH, output_path: Path = OUTPUT_PATH) -> Path:
-    # spacy.load(model_path) -> predict sur dev -> accuracy/F1/confusion -> to_json(output_path)
-    pass
+import spacy
 
 
 def main():
-    p = argparse.ArgumentParser()
-    p.add_argument("--prepared", type=Path, default=PREPARED_PATH)
-    p.add_argument("--model", type=Path, default=MODEL_PATH)
-    p.add_argument("--output", type=Path, default=OUTPUT_PATH)
-    a = p.parse_args()
-    evaluate_model(a.prepared, a.model, a.output)
+    with open("data/work/prepared.json", encoding="utf-8") as f:
+        data = json.load(f)
+
+    nlp = spacy.load("data/work/model")
+
+    correct = 0
+    total = len(data["dev"])
+
+    print(f"\n{'ID':<15} {'GOLD':<10} {'PRED':<10} {'HEALTHY':>8} {'SICK':>8}")
+    print("-" * 55)
+
+    for ex in data["dev"]:
+        doc = nlp(ex["text"])
+        pred = max(doc.cats, key=doc.cats.get)
+        gold = ex["label"]
+        if pred == gold:
+            correct += 1
+        print(f"{ex['id']:<15} {gold:<10} {pred:<10} "
+              f"{doc.cats['HEALTHY']:>8.4f} {doc.cats['SICK']:>8.4f}")
+
+    acc = correct / total if total else 0
+    print(f"\n[evaluate] accuracy={acc:.2%} ({correct}/{total})")
+
+    result = {"accuracy": round(acc, 4), "correct": correct, "total": total}
+    with open("data/work/evaluation.json", "w", encoding="utf-8") as f:
+        json.dump(result, f, indent=2)
+    print(f"[evaluate] -> data/work/evaluation.json")
 
 
 if __name__ == "__main__":

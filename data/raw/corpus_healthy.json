@@ -1,0 +1,2542 @@
+{
+  "corpus_metadata": {
+    "name": "Corpus CLAN/CHILDES",
+    "version": "2.0",
+    "description": "Corpus parsé depuis fichiers .cha",
+    "language": "eng",
+    "creation_date": "2026-03-26",
+    "size": {
+      "documents_count": 10,
+      "total_tokens": 1675,
+      "vocabulary_size": 394
+    }
+  },
+  "documents": [
+    {
+      "filename": "002-0.cha",
+      "metadata": {
+        "PID": "11312/a-00090633-0",
+        "Languages": "eng",
+        "Participants": "PAR Participant, INV Investigator",
+        "ID": "eng|Pitt|INV|||||Investigator|||",
+        "Media": "002-0, audio",
+        "G": "Cookie"
+      },
+      "utterances": [
+        {
+          "speaker": "PAR",
+          "text": "the scene is <in the> [/] in the kitchen . \u00153754_5640\u0015",
+          "mor": "det|the-Def-Art noun|scene aux|be-Fin-Ind-Pres-S3 adp|in det|the-Def-Art noun|kitchen ."
+        },
+        {
+          "speaker": "PAR",
+          "text": "the mother is wiping dishes and the water is running on the floor . \u00155776_11843\u0015",
+          "mor": "det|the-Def-Art noun|mother aux|be-Fin-Ind-Pres-S3 verb|wipe-Part-Pres-S noun|dish-Plur-Acc cconj|and det|the-Def-Art noun|water aux|be-Fin-Ind-Pres-S3 verb|run-Part-Pres-S adp|on det|the-Def-Art noun|floor ."
+        },
+        {
+          "speaker": "PAR",
+          "text": "<a child is tryin(g) to get> [//] a boy is tryin(g) to get cookies outta [: out of] a jar and he's about to tip over on a stool . \u001512138_17928\u0015",
+          "mor": "det|a-Ind-Art noun|boy aux|be-Fin-Ind-Pres-S3 verb|try-Part-Pres-S part|to verb|get-Inf-S noun|cookie-Plur-Acc adp|out adp|of det|a-Ind-Art noun|jar cconj|and pron|he-Prs-S1 adj|about-S1 part|to verb|tip-Inf-S adp|over adp|on det|a-Ind-Art noun|stool ."
+        },
+        {
+          "speaker": "PAR",
+          "text": "&-uh the little girl is reacting to his falling . \u001519223_23097\u0015",
+          "mor": "det|the-Def-Art adj|little-S1 noun|girl aux|be-Fin-Ind-Pres-S3 verb|react-Part-Pres-S adp|to pron|his-Prs-Gen-S3 noun|falling-Ger ."
+        },
+        {
+          "speaker": "PAR",
+          "text": "&-uh it seems to be summer out . \u001525240_26770\u0015",
+          "mor": "pron|it-Prs-Nom-S3 verb|seem-Fin-Ind-Pres-S3 part|to aux|be-Inf-S noun|summer adp|out ."
+        },
+        {
+          "speaker": "PAR",
+          "text": "the window is open . \u001527416_28166\u0015",
+          "mor": "det|the-Def-Art noun|window aux|be-Fin-Ind-Pres-S3 adj|open-S1 ."
+        },
+        {
+          "speaker": "PAR",
+          "text": "the curtains are blowing . \u001529559_30632\u0015",
+          "mor": "det|the-Def-Art noun|curtain-Plur aux|be-Fin-Ind-Pres-P3 verb|blow-Part-Pres-S ."
+        },
+        {
+          "speaker": "PAR",
+          "text": "it must be a gentle breeze . \u001530721_31801\u0015",
+          "mor": "pron|it-Prs-Nom-S3 aux|must-Fin-S aux|be-Inf-S det|a-Ind-Art adj|gentle-S1 noun|breeze ."
+        },
+        {
+          "speaker": "PAR",
+          "text": "there's grass outside in the garden . \u001532143_33787\u0015",
+          "mor": "verb|there-Fin-Ind-Pres-S3 noun|grass-Acc adv|outside adp|in det|the-Def-Art noun|garden ."
+        },
+        {
+          "speaker": "PAR",
+          "text": "&-uh mother's finished certain of the [/] the dishes . \u001535151_37890\u0015",
+          "mor": "noun|mother-Plur verb|finish-Fin-Ind-Past-P3 adj|certain-S1 adp|of det|the-Def-Art noun|dish-Plur ."
+        },
+        {
+          "speaker": "PAR",
+          "text": "kitchen's very tidy . [+ gram] \u001539125_40315\u0015",
+          "mor": "noun|kitchen-Plur adv|very adj|tidy-S1 ."
+        },
+        {
+          "speaker": "PAR",
+          "text": "the mother seems to have nothing in the house to eat except cookies in the cookie jar . \u001541641_44310\u0015",
+          "mor": "det|the-Def-Art noun|mother verb|seem-Fin-Ind-Pres-S3 part|to verb|have-Inf-S pron|nothing-Neg-S1 adp|in det|the-Def-Art noun|house part|to verb|eat-Inf-S adp|except noun|cookie-Plur adp|in det|the-Def-Art noun|cookie noun|jar ."
+        },
+        {
+          "speaker": "PAR",
+          "text": "&-uh the children look to be almost about the same size . \u001548309_49419\u0015",
+          "mor": "det|the-Def-Art noun|child-Plur verb|look-Fin-Ind-Pres-P3 part|to aux|be-Inf-S adv|almost adv|about det|the-Def-Art adj|same-S1 noun|size ."
+        },
+        {
+          "speaker": "PAR",
+          "text": "perhaps they're twins . \u001549989_51099\u0015",
+          "mor": "adv|perhaps adj|their-S1 noun|twin-Plur ."
+        },
+        {
+          "speaker": "PAR",
+          "text": "they're dressed for summer warm weather . \u001551368_54051\u0015",
+          "mor": "adv|their verb|dress-Part-Past-S adp|for noun|summer adj|warm-S1 noun|weather ."
+        },
+        {
+          "speaker": "PAR",
+          "text": "&-um you want more ? [+ exc] \u001556009_56318\u0015",
+          "mor": "pron|you-Prs-Nom-S2 verb|want-Fin-Ind-Pres-S2 adj|more-Cmp-S1 ?"
+        },
+        {
+          "speaker": "INV",
+          "text": "+< no that's fine . \u001556490_57272\u0015",
+          "mor": "intj|no pron|that-Dem~aux|be-Fin-Ind-Pres-S3 adj|fine-S1 ."
+        },
+        {
+          "speaker": "PAR",
+          "text": "+< the mother's in a short sleeve dress . \u001557253_59201\u0015",
+          "mor": "det|the-Def-Art noun|mother-Plur adp|in det|a-Ind-Art adj|short-S1 noun|sleeve noun|dress ."
+        },
+        {
+          "speaker": "INV",
+          "text": "+< that's great .",
+          "mor": "pron|that-Dem~aux|be-Fin-Ind-Pres-S3 adj|great-S1 ."
+        },
+        {
+          "speaker": "PAR",
+          "text": "+< I'll hafta say it's warm . [+ exc] \u001560121_60302\u0015",
+          "mor": "propn|Ill part|hafta verb|say-Fin-S pron|its-Prs-Gen-S3 adj|warm-S1 ."
+        },
+        {
+          "speaker": "INV",
+          "text": "okay good . [+ exc] \u001560944_61486\u0015",
+          "mor": "intj|okay adj|good-S1 ."
+        }
+      ],
+      "token_count": 161,
+      "vocabulary": [
+        "a",
+        "about",
+        "almost",
+        "and",
+        "are",
+        "be",
+        "blowing",
+        "boy",
+        "breeze",
+        "certain",
+        "child",
+        "children",
+        "cookie",
+        "cookies",
+        "curtains",
+        "dishes",
+        "dress",
+        "dressed",
+        "eat",
+        "exc",
+        "except",
+        "falling",
+        "fine",
+        "finished",
+        "floor",
+        "for",
+        "g",
+        "garden",
+        "gentle",
+        "get",
+        "girl",
+        "good",
+        "gram",
+        "grass",
+        "great",
+        "hafta",
+        "have",
+        "he's",
+        "his",
+        "house",
+        "i'll",
+        "in",
+        "is",
+        "it",
+        "it's",
+        "jar",
+        "kitchen",
+        "kitchen's",
+        "little",
+        "look",
+        "more",
+        "mother",
+        "mother's",
+        "must",
+        "no",
+        "nothing",
+        "of",
+        "okay",
+        "on",
+        "open",
+        "out",
+        "outside",
+        "outta",
+        "over",
+        "perhaps",
+        "reacting",
+        "running",
+        "same",
+        "say",
+        "scene",
+        "seems",
+        "short",
+        "size",
+        "sleeve",
+        "stool",
+        "summer",
+        "that's",
+        "the",
+        "there's",
+        "they're",
+        "tidy",
+        "tip",
+        "to",
+        "tryin",
+        "twins",
+        "uh",
+        "um",
+        "very",
+        "want",
+        "warm",
+        "water",
+        "weather",
+        "window",
+        "wiping",
+        "you"
+      ]
+    },
+    {
+      "filename": "002-2.cha",
+      "metadata": {
+        "PID": "11312/a-00090635-0",
+        "Languages": "eng",
+        "Participants": "INV Investigator, PAR Participant",
+        "ID": "eng|Pitt|PAR|60;|female|Control||Participant|30||",
+        "Media": "002-2, audio",
+        "G": "Cookie"
+      },
+      "utterances": [
+        {
+          "speaker": "INV",
+          "text": "look at the picture and tell me everything that you see going on in the picture . \u00154852_6936\u0015",
+          "mor": "verb|look-Fin-Imp-S adp|at det|the-Def-Art noun|picture cconj|and verb|tell-Fin-Imp-S pron|I-Prs-Acc-S1 pron|everything-Tot-S1 pron|that-Rel pron|you-Prs-Nom-S2 verb|see-Fin-Ind-Pres-S2 verb|go-Ger-S adp|on adp|in det|the-Def-Art noun|picture ."
+        },
+        {
+          "speaker": "PAR",
+          "text": "&-um a boy and a girl are in the kitchen with their mother . \u001511623_14609\u0015",
+          "mor": "det|a-Ind-Art noun|boy cconj|and det|a-Ind-Art noun|girl aux|be-Fin-Ind-Pres-P3 adp|in det|the-Def-Art noun|kitchen adp|with pron|their-Prs-Gen-P3 noun|mother ."
+        },
+        {
+          "speaker": "PAR",
+          "text": "and the little boy is getting a cookie for the little girl but he's on a stool it's about to fall down . \u001515612_23140\u0015",
+          "mor": "cconj|and det|the-Def-Art adj|little-S1 noun|boy aux|be-Fin-Ind-Pres-S3 verb|get-Part-Pres-S det|a-Ind-Art noun|cookie-Acc adp|for det|the-Def-Art adj|little-S1 noun|girl cconj|but verb|he-Fin-Ind-Pres-S3 adp|on det|a-Ind-Art noun|stool pron|its-Prs-Gen-S3 adj|about-S1 part|to verb|fall-Inf-S adp|down ."
+        },
+        {
+          "speaker": "PAR",
+          "text": "&-uh the mother is washing dishes . \u001523736_26444\u0015",
+          "mor": "det|the-Def-Art noun|mother aux|be-Fin-Ind-Pres-S3 verb|wash-Part-Pres-S noun|dish-Plur-Acc ."
+        },
+        {
+          "speaker": "PAR",
+          "text": "and she's obviously thinking of something else because the water's pouring out over the &-uh sink . \u001527178_33988\u0015",
+          "mor": "cconj|and verb|she-Fin-Ind-Pres-S3 adv|obviously verb|think-Part-Pres-S adp|of pron|something-Ind-S1 adj|else-S1 sconj|because det|the-Def-Art noun|water-Plur verb|pour-Ger-S adp|out adp|over det|the-Def-Art noun|sink ."
+        },
+        {
+          "speaker": "PAR",
+          "text": "she's finished with some of the dishes . \u001534697_36307\u0015",
+          "mor": "noun|she-Plur verb|finish-Part-Past-S adp|with det|some-Def-Ind adp|of det|the-Def-Art noun|dish-Plur ."
+        },
+        {
+          "speaker": "PAR",
+          "text": "it seems to be summertime because there are bushes . \u001536387_38715\u0015",
+          "mor": "pron|it-Prs-Nom-S3 verb|seem-Fin-Ind-Pres-S3 part|to aux|be-Inf-S noun|summertime sconj|because pron|there-Int-S1 verb|be-Fin-Ind-Pres-P3 noun|bush-Plur ."
+        },
+        {
+          "speaker": "PAR",
+          "text": "the window is open . \u001538990_40412\u0015",
+          "mor": "det|the-Def-Art noun|window aux|be-Fin-Ind-Pres-S3 adj|open-S1 ."
+        },
+        {
+          "speaker": "PAR",
+          "text": "there seems to be some kind of a breeze because the curtains on the sill there blowing . \u001541325_45565\u0015",
+          "mor": "pron|there-Int-S1 verb|seem-Fin-Ind-Pres-S3 part|to verb|be-Inf-S det|some-Def-Ind noun|kind adp|of det|a-Ind-Art noun|breeze sconj|because det|the-Def-Art noun|curtain-Plur adp|on det|the-Def-Art noun|sill adv|there verb|blow-Part-Pres-S ."
+        },
+        {
+          "speaker": "PAR",
+          "text": "must be fairly hot . [+ gram] \u001546712_47968\u0015",
+          "mor": "aux|must-Fin-S aux|be-Inf-S adv|fairly adj|hot-S1 ."
+        },
+        {
+          "speaker": "PAR",
+          "text": "the mother's in a sleeveless dress . \u001548097_50457\u0015",
+          "mor": "det|the-Def-Art noun|mother-Plur adp|in det|a-Ind-Art adj|sleeveless-S1 noun|dress ."
+        },
+        {
+          "speaker": "PAR",
+          "text": "the children are in [/] in short sleeve &-um tops and have sandals . \u001551993_58493\u0015",
+          "mor": "det|the-Def-Art noun|child-Plur aux|be-Fin-Ind-Pres-P3 adp|in adj|short-S1 noun|sleeve noun|top-Plur cconj|and verb|have-Fin-Ind-Pres-P3 noun|sandal-Plur-Acc ."
+        },
+        {
+          "speaker": "PAR",
+          "text": "the little boy has &-uh tennis shoes on . \u001559598_61079\u0015",
+          "mor": "det|the-Def-Art adj|little-S1 noun|boy verb|have-Fin-Ind-Pres-S3 noun|tennis noun|shoe-Plur-Acc adp|on ."
+        },
+        {
+          "speaker": "PAR",
+          "text": "&-um the mother obviously is unaware of what the children are doing . \u001564022_66992\u0015",
+          "mor": "det|the-Def-Art noun|mother adv|obviously aux|be-Fin-Ind-Pres-S3 adj|unaware-S1 adp|of pron|what-Rel-S1 det|the-Def-Art noun|child-Plur aux|be-Fin-Ind-Pres-P3 verb|do-Part-Pres-S ."
+        },
+        {
+          "speaker": "PAR",
+          "text": "she's going to be aware of it very shortly . \u001567444_69325\u0015",
+          "mor": "adv|shes verb|go-Part-Pres-S part|to aux|be-Inf-S adj|aware-S1 adp|of pron|it-Prs-Acc-S3 adv|very adv|shortly ."
+        },
+        {
+          "speaker": "PAR",
+          "text": "&-um I mean , how much more do you want ? [+ exc] \u001571908_72987\u0015",
+          "mor": "pron|I-Prs-Nom-S1 verb|mean-Fin-Ind-Pres-S1 cm|cm adv|how adv|much adj|more-Cmp-S1 aux|do-Fin-Ind-Pres-S2 pron|you-Prs-Nom-S2 verb|want-Inf-S ?"
+        },
+        {
+          "speaker": "INV",
+          "text": "if that's it that's fine . \u001573209_73939\u0015",
+          "mor": "sconj|if pron|that-Prs-S1 pron|it-Prs-Nom-S3 aux|that-Fin-Ind-Pres-S3 adj|fine-S1 ."
+        },
+        {
+          "speaker": "PAR",
+          "text": "+< hm okay . [+ exc] \u001574049_74430\u0015",
+          "mor": "intj|hm intj|okay ."
+        }
+      ],
+      "token_count": 180,
+      "vocabulary": [
+        "a",
+        "about",
+        "and",
+        "are",
+        "at",
+        "aware",
+        "be",
+        "because",
+        "blowing",
+        "boy",
+        "breeze",
+        "bushes",
+        "but",
+        "children",
+        "cookie",
+        "curtains",
+        "dishes",
+        "do",
+        "doing",
+        "down",
+        "dress",
+        "else",
+        "everything",
+        "exc",
+        "fairly",
+        "fall",
+        "fine",
+        "finished",
+        "for",
+        "getting",
+        "girl",
+        "going",
+        "gram",
+        "has",
+        "have",
+        "he's",
+        "hm",
+        "hot",
+        "how",
+        "i",
+        "if",
+        "in",
+        "is",
+        "it",
+        "it's",
+        "kind",
+        "kitchen",
+        "little",
+        "look",
+        "me",
+        "mean",
+        "more",
+        "mother",
+        "mother's",
+        "much",
+        "must",
+        "obviously",
+        "of",
+        "okay",
+        "on",
+        "open",
+        "out",
+        "over",
+        "picture",
+        "pouring",
+        "sandals",
+        "see",
+        "seems",
+        "she's",
+        "shoes",
+        "short",
+        "shortly",
+        "sill",
+        "sink",
+        "sleeve",
+        "sleeveless",
+        "some",
+        "something",
+        "stool",
+        "summertime",
+        "tell",
+        "tennis",
+        "that",
+        "that's",
+        "the",
+        "their",
+        "there",
+        "thinking",
+        "to",
+        "tops",
+        "uh",
+        "um",
+        "unaware",
+        "very",
+        "want",
+        "washing",
+        "water's",
+        "what",
+        "window",
+        "with",
+        "you"
+      ]
+    },
+    {
+      "filename": "006-2.cha",
+      "metadata": {
+        "PID": "11312/a-00090637-0",
+        "Languages": "eng",
+        "Participants": "PAR Participant, INV Investigator",
+        "ID": "eng|Pitt|INV|||||Investigator|||",
+        "Media": "006-2, audio",
+        "G": "Cookie"
+      },
+      "utterances": [
+        {
+          "speaker": "PAR",
+          "text": "&=clears:throat wait (un)til I put my glasses on . [+ exc] \u00153540_3930\u0015",
+          "mor": "verb|wait-Fin-Imp-S sconj|until pron|I-Prs-Nom-S1 verb|put-Fin-Ind-Past-S1-irr pron|my-Prs-Gen-S1 noun|glasses-Ptan-Acc adp|on ."
+        },
+        {
+          "speaker": "INV",
+          "text": "okay .",
+          "mor": "intj|okay ."
+        },
+        {
+          "speaker": "PAR",
+          "text": "oh , there's a girl &-uh reachin(g) for a cookie . \u00155702_8730\u0015",
+          "mor": "intj|oh cm|cm verb|there-Fin-Ind-Pres-S3 det|a-Ind-Art noun|girl-Acc verb|reach-Ger-S adp|for det|a-Ind-Art noun|cookie ."
+        },
+        {
+          "speaker": "PAR",
+          "text": "a boy is &-uh up standing on a stool . \u00159284_12470\u0015",
+          "mor": "det|a-Ind-Art noun|boy aux|be-Fin-Ind-Pres-S3 adv|up verb|stand-Part-Pres-S adp|on det|a-Ind-Art noun|stool ."
+        },
+        {
+          "speaker": "PAR",
+          "text": "he's fallin(g) off a stool . \u001512507_13748\u0015",
+          "mor": "noun|he-Plur verb|fall-Part-Pres-S adp|off det|a-Ind-Art noun|stool ."
+        },
+        {
+          "speaker": "PAR",
+          "text": "he's got his hand in the cookie jar . \u001513766_15216\u0015",
+          "mor": "noun|he-Plur verb|get-Fin-Ind-Past-P3-irr pron|his-Prs-Gen-S3 noun|hand-Acc adp|in det|the-Def-Art noun|cookie noun|jar ."
+        },
+        {
+          "speaker": "PAR",
+          "text": "girl has her hand up to her mouth . [+ gram] \u001516288_18182\u0015",
+          "mor": "noun|girl verb|have-Fin-Ind-Pres-S3 pron|her-Prs-Gen-S3 noun|hand-Acc adp|up adp|to pron|her-Prs-Gen-S3 noun|mouth ."
+        },
+        {
+          "speaker": "PAR",
+          "text": "&-um the mother is &-uh washing dishes . \u001519230_22665\u0015",
+          "mor": "det|the-Def-Art noun|mother aux|be-Fin-Ind-Pres-S3 verb|wash-Part-Pres-S noun|dish-Plur-Acc ."
+        },
+        {
+          "speaker": "PAR",
+          "text": "the stink [: sink] [* p:w-ret] [//] sink is overflowing . \u001522853_24394\u0015",
+          "mor": "det|the-Def-Art noun|sink aux|be-Fin-Ind-Pres-S3 verb|overflow-Part-Pres-S ."
+        },
+        {
+          "speaker": "PAR",
+          "text": "the window is open &=clears throat . \u001525235_26796\u0015",
+          "mor": "det|the-Def-Art noun|window aux|be-Fin-Ind-Pres-S3 adj|open-S1 noun|throat ."
+        },
+        {
+          "speaker": "PAR",
+          "text": "she's drying the dishes . \u001527597_28618\u0015",
+          "mor": "noun|she verb|drying-Part-Pres-S det|the-Def-Art noun|dish-Plur-Acc ."
+        },
+        {
+          "speaker": "PAR",
+          "text": "the water's all over the floor . \u001529371_30841\u0015",
+          "mor": "det|the-Def-Art noun|water-Plur adv|all adp|over det|the-Def-Art noun|floor ."
+        },
+        {
+          "speaker": "PAR",
+          "text": "she's getting her feet wet . \u001530952_32925\u0015",
+          "mor": "verb|she-Fin-Ind-Pres-S3 verb|get-Part-Pres-S pron|her-Prs-Gen-S3 noun|foot-Plur-Acc adj|wet-S1 ."
+        },
+        {
+          "speaker": "PAR",
+          "text": "looks like the breeze is blowin(g) in . \u001533774_35428\u0015",
+          "mor": "verb|look-Fin-Ind-Pres-S3 sconj|like det|the-Def-Art noun|breeze aux|be-Fin-Ind-Pres-S3 verb|blow-Part-Pres-S adp|in ."
+        },
+        {
+          "speaker": "PAR",
+          "text": "and &-uh there's some dirty dishes on the counter . \u001537376_39510\u0015",
+          "mor": "cconj|and verb|there-Fin-Ind-Pres-S3 det|some-Def-Ind adj|dirty-S1 noun|dish-Plur-Acc adp|on det|the-Def-Art noun|counter ."
+        },
+        {
+          "speaker": "INV",
+          "text": "alright good .",
+          "mor": "intj|alright adj|good-S1 ."
+        }
+      ],
+      "token_count": 109,
+      "vocabulary": [
+        "a",
+        "all",
+        "alright",
+        "and",
+        "blowin",
+        "boy",
+        "breeze",
+        "clears",
+        "cookie",
+        "counter",
+        "dirty",
+        "dishes",
+        "drying",
+        "exc",
+        "fallin",
+        "feet",
+        "floor",
+        "for",
+        "g",
+        "getting",
+        "girl",
+        "glasses",
+        "good",
+        "got",
+        "gram",
+        "hand",
+        "has",
+        "he's",
+        "her",
+        "his",
+        "i",
+        "in",
+        "is",
+        "jar",
+        "like",
+        "looks",
+        "mother",
+        "mouth",
+        "my",
+        "off",
+        "oh",
+        "okay",
+        "on",
+        "open",
+        "over",
+        "overflowing",
+        "p",
+        "put",
+        "reachin",
+        "she's",
+        "sink",
+        "some",
+        "standing",
+        "stink",
+        "stool",
+        "the",
+        "there's",
+        "throat",
+        "til",
+        "to",
+        "uh",
+        "um",
+        "un",
+        "up",
+        "w-ret",
+        "wait",
+        "washing",
+        "water's",
+        "wet",
+        "window"
+      ]
+    },
+    {
+      "filename": "006-4.cha",
+      "metadata": {
+        "PID": "11312/a-00090639-0",
+        "Languages": "eng",
+        "Participants": "INV Investigator, PAR Participant",
+        "ID": "eng|Pitt|PAR|74;|male|Control||Participant|||",
+        "Media": "006-4, audio",
+        "G": "Cookie"
+      },
+      "utterances": [
+        {
+          "speaker": "INV",
+          "text": "tell me everything that you see going on in that picture . \u0015100_2230\u0015",
+          "mor": "verb|tell-Fin-Imp-S pron|I-Prs-Acc-S1 pron|everything-Tot-S1 pron|that-Rel pron|you-Prs-Nom-S2 verb|see-Fin-Ind-Pres-S2 verb|go-Ger-S adp|on adp|in det|that-Def-Dem-Sing noun|picture ."
+        },
+        {
+          "speaker": "INV",
+          "text": "everything that you see happening . \u00152844_4130\u0015",
+          "mor": "pron|everything-Tot-S1 pron|that-Rel pron|you-Prs-Nom-S2 verb|see-Fin-Ind-Pres-S2 verb|happen-Ger-S ."
+        },
+        {
+          "speaker": "PAR",
+          "text": "well , there's a mother standing there &-uh &-uh washing the dishes . \u00156651_11907\u0015",
+          "mor": "intj|well cm|cm verb|there-Fin-Ind-Pres-S3 det|a-Ind-Art noun|mother-Acc verb|stand-Ger-S adv|there verb|wash-Part-Pres-S det|the-Def-Art noun|dish-Plur-Acc ."
+        },
+        {
+          "speaker": "PAR",
+          "text": "and the sink is overspilling [: overflowing] [* s:r] . \u001511939_13119\u0015",
+          "mor": "cconj|and det|the-Def-Art noun|sink aux|be-Fin-Ind-Pres-S3 verb|overflow-Part-Pres-S ."
+        },
+        {
+          "speaker": "PAR",
+          "text": "and &-uh the window's open . \u001516120_20480\u0015",
+          "mor": "cconj|and det|the-Def-Art noun|window~part|s adj|open-S1 ."
+        },
+        {
+          "speaker": "PAR",
+          "text": "and outside the window there's a <walk with a> [//] &+c curved walk with a garden . \u001520948_26936\u0015",
+          "mor": "cconj|and adp|outside det|the-Def-Art noun|window verb|there-Fin-Ind-Pres-S3 det|a-Ind-Art verb|curved-Part-Past-S noun|walk-Acc adp|with det|a-Ind-Art noun|garden ."
+        },
+        {
+          "speaker": "PAR",
+          "text": "and you can see another &-uh &-uh building there . \u001529234_32714\u0015",
+          "mor": "cconj|and pron|you-Prs-Nom-S2 aux|can-Fin-S verb|see-Inf-S det|another-Def-Ind noun|building-Acc-Ger adv|there ."
+        },
+        {
+          "speaker": "PAR",
+          "text": "looks like a garage or something with curtains and the grass in the garden . \u001532879_37223\u0015",
+          "mor": "verb|look-Fin-Ind-Pres-S3 adp|like det|a-Ind-Art noun|garage cconj|or pron|something-Ind-S1 adp|with noun|curtain-Plur cconj|and det|the-Def-Art noun|grass adp|in det|the-Def-Art noun|garden ."
+        },
+        {
+          "speaker": "PAR",
+          "text": "and there are dishes [//] &-uh &-uh two cups and a saucer on the sink . \u001538607_42012\u0015",
+          "mor": "cconj|and pron|there-Int-S1 verb|be-Fin-Ind-Pres-P3 num|two noun|cup-Plur cconj|and det|a-Ind-Art noun|saucer adp|on det|the-Def-Art noun|sink ."
+        },
+        {
+          "speaker": "PAR",
+          "text": "and &-uh she's getting her feet wet from the overflow of the water from the sink . \u001543193_49073\u0015",
+          "mor": "cconj|and noun|she verb|get-Part-Pres-S pron|her-Prs-Gen-S3 noun|foot-Plur-Acc adj|wet-S1 adp|from det|the-Def-Art noun|overflow adp|of det|the-Def-Art noun|water adp|from det|the-Def-Art noun|sink ."
+        },
+        {
+          "speaker": "PAR",
+          "text": "she seems to be oblivious to the fact that the &+s sink is overflowing . \u001549301_54486\u0015",
+          "mor": "pron|she-Prs-Nom-S3 verb|seem-Fin-Ind-Pres-S3 part|to aux|be-Inf-S adj|oblivious-S1 adp|to det|the-Def-Art noun|fact sconj|that det|the-Def-Art noun|sink aux|be-Fin-Ind-Pres-S3 verb|overflow-Part-Pres-S ."
+        },
+        {
+          "speaker": "PAR",
+          "text": "she's also oblivious to the fact that her kids are stealin(g) cookies out o(f) the cookie jar . \u001555408_60678\u0015",
+          "mor": "verb|she-Fin-Ind-Pres-S3 adv|also adj|oblivious-S1 adp|to det|the-Def-Art noun|fact sconj|that pron|her-Prs-Gen-S3 noun|kid-Plur aux|be-Fin-Ind-Pres-P3 verb|steal-Part-Pres-S noun|cookie-Plur-Acc adp|out adp|of det|the-Def-Art noun|cookie noun|jar ."
+        },
+        {
+          "speaker": "PAR",
+          "text": "and the kid on the stool is gonna fall off the stool . \u001562732_66055\u0015",
+          "mor": "cconj|and det|the-Def-Art noun|kid adp|on det|the-Def-Art noun|stool aux|be-Fin-Ind-Pres-S3 part|go verb|fall-Inf-S adp|off det|the-Def-Art noun|stool ."
+        },
+        {
+          "speaker": "PAR",
+          "text": "he's standing up there in the cupboard takin(g) cookies out o(f) the jar , handin(g) them to his [//] &-uh a girl about the same age . \u001566299_73799\u0015",
+          "mor": "noun|he-Plur verb|stand-Part-Pres-S adp|up adv|there adp|in det|the-Def-Art noun|cupboard verb|take-Ger-S noun|cookie-Plur-Acc adp|out adp|of det|the-Def-Art noun|jar cm|cm verb|hand-Part-Pres-S pron|they-Prs-Acc-P3 adp|to det|a-Ind-Art noun|girl adp|about det|the-Def-Art adj|same-S1 noun|age ."
+        },
+        {
+          "speaker": "PAR",
+          "text": "the kids are somewhere around seven or eight years old or nine . \u001573887_77992\u0015",
+          "mor": "det|the-Def-Art noun|kid-Plur aux|be-Fin-Ind-Pres-P3 adv|somewhere adp|around num|seven cconj|or num|eight noun|year-Plur adj|old-S1 cconj|or num|nine ."
+        },
+        {
+          "speaker": "PAR",
+          "text": "and the mother is gonna get shocked <when the> [/] when the [//] he tumbles and the cookie jar comes down . \u001579908_87378\u0015",
+          "mor": "cconj|and det|the-Def-Art noun|mother aux|be-Fin-Ind-Pres-S3 part|go verb|get-Inf-S adj|shocked-S1 adv|when pron|he-Prs-Nom-S3 verb|tumble-Fin-Ind-Pres-S3 cconj|and det|the-Def-Art noun|cookie noun|jar verb|come-Fin-Ind-Pres-S3 adv|down ."
+        },
+        {
+          "speaker": "PAR",
+          "text": "and I think that's about all . [+ exc] \u001587575_88697\u0015",
+          "mor": "cconj|and pron|I-Prs-Nom-S1 verb|think-Fin-Ind-Pres-S1 aux|that-Fin-Ind-Pres-S3 adp|about det|all-Def-Tot ."
+        }
+      ],
+      "token_count": 218,
+      "vocabulary": [
+        "a",
+        "about",
+        "age",
+        "all",
+        "also",
+        "and",
+        "another",
+        "are",
+        "around",
+        "be",
+        "building",
+        "c",
+        "can",
+        "comes",
+        "cookie",
+        "cookies",
+        "cupboard",
+        "cups",
+        "curtains",
+        "curved",
+        "dishes",
+        "down",
+        "eight",
+        "everything",
+        "exc",
+        "f",
+        "fact",
+        "fall",
+        "feet",
+        "from",
+        "g",
+        "garage",
+        "garden",
+        "get",
+        "getting",
+        "girl",
+        "going",
+        "gonna",
+        "grass",
+        "handin",
+        "happening",
+        "he",
+        "he's",
+        "her",
+        "his",
+        "i",
+        "in",
+        "is",
+        "jar",
+        "kid",
+        "kids",
+        "like",
+        "looks",
+        "me",
+        "mother",
+        "nine",
+        "o",
+        "oblivious",
+        "of",
+        "off",
+        "old",
+        "on",
+        "open",
+        "or",
+        "out",
+        "outside",
+        "overflow",
+        "overflowing",
+        "overspilling",
+        "picture",
+        "r",
+        "s",
+        "same",
+        "saucer",
+        "see",
+        "seems",
+        "seven",
+        "she",
+        "she's",
+        "shocked",
+        "sink",
+        "something",
+        "somewhere",
+        "standing",
+        "stealin",
+        "stool",
+        "takin",
+        "tell",
+        "that",
+        "that's",
+        "the",
+        "them",
+        "there",
+        "there's",
+        "think",
+        "to",
+        "tumbles",
+        "two",
+        "uh",
+        "up",
+        "walk",
+        "washing",
+        "water",
+        "well",
+        "wet",
+        "when",
+        "window",
+        "window's",
+        "with",
+        "years",
+        "you"
+      ]
+    },
+    {
+      "filename": "013-0.cha",
+      "metadata": {
+        "PID": "11312/a-00090640-0",
+        "Languages": "eng",
+        "Participants": "INV Investigator, PAR Participant",
+        "ID": "eng|Pitt|PAR|62;|female|Control||Participant|30||",
+        "Media": "013-0, audio",
+        "G": "Cookie"
+      },
+      "utterances": [
+        {
+          "speaker": "INV",
+          "text": "just look at the picture and tell me everything that you see . \u00151170_5135\u0015",
+          "mor": "adv|just verb|look-Fin-Imp-S adp|at det|the-Def-Art noun|picture cconj|and verb|tell-Fin-Imp-S pron|I-Prs-Acc-S1 pron|everything-Tot-S1 pron|that-Rel pron|you-Prs-Nom-S2 verb|see-Fin-Ind-Pres-S2 ."
+        },
+        {
+          "speaker": "PAR",
+          "text": "somebody's getting cookies out of the cookie jar , standing on a stool . \u00156039_9499\u0015",
+          "mor": "noun|somebody-Plur verb|get-Ger-S noun|cookie-Plur-Acc adp|out adp|of det|the-Def-Art noun|cookie noun|jar cm|cm verb|stand-Part-Pres-S adp|on det|a-Ind-Art noun|stool ."
+        },
+        {
+          "speaker": "PAR",
+          "text": "the stool's gonna tip over . \u001510045_11118\u0015",
+          "mor": "det|the-Def-Art noun|stool-Plur adv|gonna verb|tip-Inf-S adp|over ."
+        },
+        {
+          "speaker": "PAR",
+          "text": "and the girl's saying +\"/. \u001512509_13348\u0015",
+          "mor": "cconj|and det|the-Def-Art noun|girl-Plur verb|say-Part-Pres-S +\"/."
+        },
+        {
+          "speaker": "PAR",
+          "text": "+\" shh don't let somebody hear . \u001514045_15075\u0015",
+          "mor": "intj|shh intj|dont verb|let-Fin-Imp-S pron|somebody-Ind-S1 verb|hear-Inf-S ."
+        },
+        {
+          "speaker": "PAR",
+          "text": "and the mother's drying dishes . \u001515447_16641\u0015",
+          "mor": "cconj|and det|the-Def-Art noun|mother noun|drying-Ger noun|dish-Plur ."
+        },
+        {
+          "speaker": "PAR",
+          "text": "the water's running out into the floor . \u001517397_18947\u0015",
+          "mor": "det|the-Def-Art noun|water-Plur verb|run-Ger-S adp|out adp|into det|the-Def-Art noun|floor ."
+        },
+        {
+          "speaker": "PAR",
+          "text": "cups and plates are sitting on the counter . \u001520580_22616\u0015",
+          "mor": "noun|cup-Plur cconj|and noun|plate-Plur aux|be-Fin-Ind-Pres-P3 verb|sit-Part-Pres-S adp|on det|the-Def-Art noun|counter ."
+        },
+        {
+          "speaker": "PAR",
+          "text": "&+ou you can look out the window and see the shrubbery . \u001525144_27042\u0015",
+          "mor": "pron|you-Prs-Nom-S2 aux|can-Fin-S verb|look-Inf-S adp|out det|the-Def-Art noun|window cconj|and verb|see-Inf-S det|the-Def-Art noun|shrubbery-Acc ."
+        },
+        {
+          "speaker": "PAR",
+          "text": "&-um the lid's sideways from the cookie jar . \u001530743_33568\u0015",
+          "mor": "det|the-Def-Art noun|lid-Plur adv|sideways adp|from det|the-Def-Art noun|cookie noun|jar ."
+        },
+        {
+          "speaker": "PAR",
+          "text": "the door is open on the cabinet . \u001534437_35573\u0015",
+          "mor": "det|the-Def-Art noun|door aux|be-Fin-Ind-Pres-S3 adj|open-S1 adp|on det|the-Def-Art noun|cabinet ."
+        },
+        {
+          "speaker": "PAR",
+          "text": "&-um mother apparently doesn't really notice well enough &=laughs .",
+          "mor": "noun|mother adv|apparently adv|doesnt adv|really verb|notice-Inf-S adv|well adj|enough-S1 ."
+        },
+        {
+          "speaker": "PAR",
+          "text": "&-hm curtains are hanging on the window . \u001548040_49707\u0015",
+          "mor": "noun|curtain-Plur aux|be-Fin-Ind-Pres-P3 verb|hang-Part-Pres-S adp|on det|the-Def-Art noun|window ."
+        },
+        {
+          "speaker": "PAR",
+          "text": "the window is open . \u001551395_52125\u0015",
+          "mor": "det|the-Def-Art noun|window aux|be-Fin-Ind-Pres-S3 adj|open-S1 ."
+        },
+        {
+          "speaker": "INV",
+          "text": "that's fine .",
+          "mor": "aux|that-Fin-Ind-Pres-S3 adj|fine-S1 ."
+        },
+        {
+          "speaker": "INV",
+          "text": "okay thank you . \u001556477_57019\u0015",
+          "mor": "intj|okay verb|thank-Fin-Ind-Pres-S1 pron|you-Prs-Acc-S2 ."
+        }
+      ],
+      "token_count": 109,
+      "vocabulary": [
+        "a",
+        "and",
+        "apparently",
+        "are",
+        "at",
+        "cabinet",
+        "can",
+        "cookie",
+        "cookies",
+        "counter",
+        "cups",
+        "curtains",
+        "dishes",
+        "doesn't",
+        "don't",
+        "door",
+        "drying",
+        "enough",
+        "everything",
+        "fine",
+        "floor",
+        "from",
+        "getting",
+        "girl's",
+        "gonna",
+        "hanging",
+        "hear",
+        "hm",
+        "into",
+        "is",
+        "jar",
+        "just",
+        "laughs",
+        "let",
+        "lid's",
+        "look",
+        "me",
+        "mother",
+        "mother's",
+        "notice",
+        "of",
+        "okay",
+        "on",
+        "open",
+        "ou",
+        "out",
+        "over",
+        "picture",
+        "plates",
+        "really",
+        "running",
+        "saying",
+        "see",
+        "shh",
+        "shrubbery",
+        "sideways",
+        "sitting",
+        "somebody",
+        "somebody's",
+        "standing",
+        "stool",
+        "stool's",
+        "tell",
+        "thank",
+        "that",
+        "that's",
+        "the",
+        "tip",
+        "um",
+        "water's",
+        "well",
+        "window",
+        "you"
+      ]
+    },
+    {
+      "filename": "015-0.cha",
+      "metadata": {
+        "PID": "11312/a-00090644-0",
+        "Languages": "eng",
+        "Participants": "INV Investigator, PAR Participant",
+        "ID": "eng|Pitt|PAR|66;|female|Control||Participant|28||",
+        "Media": "015-0, audio",
+        "G": "Cookie"
+      },
+      "utterances": [
+        {
+          "speaker": "INV",
+          "text": "just everything that is going on there . \u0015330_2340\u0015",
+          "mor": "adv|just pron|everything-Tot-S1 pron|that-Rel aux|be-Fin-Ind-Pres-S3 verb|go-Part-Pres-S adp|on adv|there ."
+        },
+        {
+          "speaker": "PAR",
+          "text": "oh for god's sakes . [+ exc] \u00152695_3480\u0015",
+          "mor": "intj|oh adp|for noun|god-Plur noun|sake-Plur ."
+        },
+        {
+          "speaker": "PAR",
+          "text": "the lady is wiping dishes . \u00155623_7726\u0015",
+          "mor": "det|the-Def-Art noun|lady aux|be-Fin-Ind-Pres-S3 verb|wipe-Part-Pres-S noun|dish-Plur-Acc ."
+        },
+        {
+          "speaker": "PAR",
+          "text": "the sink is overflowing . \u00158009_9249\u0015",
+          "mor": "det|the-Def-Art noun|sink aux|be-Fin-Ind-Pres-S3 verb|overflow-Part-Pres-S ."
+        },
+        {
+          "speaker": "PAR",
+          "text": "the &-uh boy is &-uh getting a cookie . \u001511220_15632\u0015",
+          "mor": "det|the-Def-Art noun|boy aux|be-Fin-Ind-Pres-S3 verb|get-Part-Pres-S det|a-Ind-Art noun|cookie-Acc ."
+        },
+        {
+          "speaker": "PAR",
+          "text": "he's handing another one to the little girl . \u001515854_18664\u0015",
+          "mor": "noun|he-Plur verb|hand-Part-Pres-S det|another-Def-Ind noun|one-Acc adp|to det|the-Def-Art adj|little-S1 noun|girl ."
+        },
+        {
+          "speaker": "PAR",
+          "text": "the little girl is &-uh shushing whatever you call that &-um the boy (be)cause evidently they're stealing (th)em . \u001518756_26336\u0015",
+          "mor": "det|the-Def-Art adj|little-S1 noun|girl aux|be-Fin-Ind-Pres-S3 verb|shush-Part-Pres-S pron|whatever-Rel-S1 pron|you-Prs-Nom-S2 verb|call-Fin-Ind-Pres-S2 sconj|that det|the-Def-Art noun|boy-Acc sconj|because adv|evidently sconj|their verb|steal-Part-Pres-S pron|they-Prs-Acc-P3 ."
+        },
+        {
+          "speaker": "PAR",
+          "text": "and [//] sneaking them is a better word . \u001527573_29855\u0015",
+          "mor": "verb|sneak-Part-S pron|they-Prs-Acc-P3 aux|be-Fin-Ind-Pres-S3 det|a-Ind-Art adj|good-Cmp-S1 noun|word ."
+        },
+        {
+          "speaker": "PAR",
+          "text": "and &-um they're [//] you said happening . [+ exc] \u001530411_34261\u0015",
+          "mor": "cconj|and pron|you-Prs-Nom-S2 verb|say-Fin-Ind-Past-S2-irr verb|happen-Ger-S ."
+        },
+        {
+          "speaker": "PAR",
+          "text": "a verb . [+ exc] \u001534438_34796\u0015",
+          "mor": "det|a-Ind-Art noun|verb ."
+        },
+        {
+          "speaker": "PAR",
+          "text": "it hasta be movement . [+ exc] \u001534939_35842\u0015",
+          "mor": "pron|it-Prs-Nom-S3 x|hasta aux|be-Inf-S noun|movement ."
+        },
+        {
+          "speaker": "INV",
+          "text": "just everything that you see going on in the picture . \u001537207_39026\u0015",
+          "mor": "adv|just pron|everything-Tot-S1 pron|that-Rel pron|you-Prs-Nom-S2 verb|see-Fin-Ind-Pres-S2 verb|go-Ger-S adp|on adp|in det|the-Def-Art noun|picture ."
+        },
+        {
+          "speaker": "PAR",
+          "text": "+< and just [//] including identifying things ? [+ exc] \u001539427_41489\u0015",
+          "mor": "cconj|and verb|include-Part-Pres-S verb|identify-Ger-S noun|thing-Plur-Acc ?"
+        },
+        {
+          "speaker": "INV",
+          "text": "whatever you like . \u001542193_43235\u0015",
+          "mor": "pron|whatever-Int-S1 pron|you-Prs-S2 verb|like-Fin-Ind-Pres-S2 ."
+        },
+        {
+          "speaker": "PAR",
+          "text": "the lady is standing in a puddle (.) of water . \u001544319_48905\u0015",
+          "mor": "det|the-Def-Art noun|lady aux|be-Fin-Ind-Pres-S3 verb|stand-Part-Pres-S adp|in det|a-Ind-Art noun|puddle adp|of noun|water ."
+        },
+        {
+          "speaker": "PAR",
+          "text": "and the faucet is running . \u001550126_51876\u0015",
+          "mor": "cconj|and det|the-Def-Art noun|faucet aux|be-Fin-Ind-Pres-S3 verb|run-Part-Pres-S ."
+        },
+        {
+          "speaker": "PAR",
+          "text": "and &-uh the window is open . \u001553032_56057\u0015",
+          "mor": "cconj|and det|the-Def-Art noun|window aux|be-Fin-Ind-Pres-S3 adj|open-S1 ."
+        },
+        {
+          "speaker": "PAR",
+          "text": "and there's a house next door , with curtains at the window , the same kind of curtains as hers . \u001560715_67805\u0015",
+          "mor": "cconj|and verb|there-Fin-Ind-Pres-S3 det|a-Ind-Art noun|house-Acc adj|next-S1 noun|door cm|cm adp|with noun|curtain-Plur adp|at det|the-Def-Art noun|window cm|cm det|the-Def-Art adj|same-S1 noun|kind adp|of noun|curtain-Plur adp|as pron|her-Prs-S3 ."
+        },
+        {
+          "speaker": "PAR",
+          "text": "and there's a tree in the next yard . \u001569112_71317\u0015",
+          "mor": "cconj|and verb|there-Fin-Ind-Pres-S3 det|a-Ind-Art noun|tree-Acc adp|in det|the-Def-Art adj|next-S1 noun|yard ."
+        },
+        {
+          "speaker": "PAR",
+          "text": "it almost looks like it doesn't have a trunk . \u001573913_75573\u0015",
+          "mor": "pron|it-Prs-Nom-S3 adv|almost verb|look-Fin-Ind-Pres-S3 sconj|like pron|it-Prs-Nom-S3 adv|doesnt verb|have-Inf-S det|a-Ind-Art noun|trunk-Acc ."
+        },
+        {
+          "speaker": "PAR",
+          "text": "it doesn't start in the ground it starts in the air . \u001575692_77572\u0015",
+          "mor": "pron|it-Prs-Nom-S3 adv|doesnt verb|start-Inf-S adp|in det|the-Def-Art noun|ground pron|it-Prs-Nom-S3 verb|start-Fin-Ind-Pres-S3 adp|in det|the-Def-Art noun|air ."
+        },
+        {
+          "speaker": "PAR",
+          "text": "&-uh there's a shrub between the two yards . \u001579474_83896\u0015",
+          "mor": "verb|there-Fin-Ind-Pres-S3 det|a-Ind-Art noun|shrub-Acc adp|between det|the-Def-Art num|two noun|yard-Plur ."
+        },
+        {
+          "speaker": "PAR",
+          "text": "there are two cups on the counter , one plate &=laughs . \u001587220_89440\u0015",
+          "mor": "pron|there-Int-S1 verb|be-Fin-Ind-Pres-P3 num|two noun|cup-Plur adp|on det|the-Def-Art noun|counter cm|cm num|one noun|plate ."
+        },
+        {
+          "speaker": "INV",
+          "text": "that's fine . \u001590195_90745\u0015",
+          "mor": "aux|that-Fin-Ind-Pres-S3 adj|fine-S1 ."
+        },
+        {
+          "speaker": "PAR",
+          "text": "the stool is crooked . \u001591282_93092\u0015",
+          "mor": "det|the-Def-Art noun|stool aux|be-Fin-Ind-Pres-S3 adj|crooked-S1 ."
+        },
+        {
+          "speaker": "PAR",
+          "text": "she's [//] he's gonna fall over <because it> [//] and <it's a> [/] <it's a three> [//] it's a tripod stool that is falling over , not very steady . \u001593324_101191\u0015",
+          "mor": "noun|he-Plur adv|gonna verb|fall-Inf-S adp|over cconj|and pron|its-Prs-Gen-S3 det|a-Ind-Art noun|tripod noun|stool pron|that-Rel aux|be-Fin-Ind-Pres-S3 verb|fall-Part-Pres-S adv|over cm|cm part|not adv|very adj|steady-S1 ."
+        },
+        {
+          "speaker": "PAR",
+          "text": "the cupboards don't have handles except one door . \u0015102752_105652\u0015",
+          "mor": "det|the-Def-Art noun|cupboard-Plur adv|dont verb|have-Fin-Ind-Pres-P3 noun|handle-Plur-Acc adp|except num|one noun|door ."
+        },
+        {
+          "speaker": "PAR",
+          "text": "and the bottom ones do and the ones on the left have a different kind o(f) handle . \u0015106754_110848\u0015",
+          "mor": "cconj|and det|the-Def-Art adj|bottom-S1 noun|one-Plur aux|do-Fin-Ind-Pres-P3 cconj|and det|the-Def-Art noun|one-Plur adp|on det|the-Def-Art noun|left verb|have-Fin-Ind-Pres-P3 det|a-Ind-Art adj|different-S1 noun|kind-Acc adp|of noun|handle ."
+        },
+        {
+          "speaker": "PAR",
+          "text": "and &=laughs can I quit pretty soon ? [+ exc] \u0015113117_116052\u0015",
+          "mor": "cconj|and aux|can-Fin-S pron|I-Prs-Nom-S1 verb|quit-Inf-S adv|pretty adv|soon ?"
+        },
+        {
+          "speaker": "INV",
+          "text": "+< yes that's fine &=laughs . \u0015116059_116780\u0015",
+          "mor": "intj|yes pron|that-Dem~aux|be-Fin-Ind-Pres-S3 adj|fine-S1 ."
+        }
+      ],
+      "token_count": 250,
+      "vocabulary": [
+        "a",
+        "air",
+        "almost",
+        "and",
+        "another",
+        "are",
+        "as",
+        "at",
+        "be",
+        "because",
+        "better",
+        "between",
+        "bottom",
+        "boy",
+        "call",
+        "can",
+        "cause",
+        "cookie",
+        "counter",
+        "crooked",
+        "cupboards",
+        "cups",
+        "curtains",
+        "different",
+        "dishes",
+        "do",
+        "doesn't",
+        "don't",
+        "door",
+        "em",
+        "everything",
+        "evidently",
+        "exc",
+        "except",
+        "f",
+        "fall",
+        "falling",
+        "faucet",
+        "fine",
+        "for",
+        "getting",
+        "girl",
+        "god's",
+        "going",
+        "gonna",
+        "ground",
+        "handing",
+        "handle",
+        "handles",
+        "happening",
+        "hasta",
+        "have",
+        "he's",
+        "hers",
+        "house",
+        "i",
+        "identifying",
+        "in",
+        "including",
+        "is",
+        "it",
+        "it's",
+        "just",
+        "kind",
+        "lady",
+        "laughs",
+        "left",
+        "like",
+        "little",
+        "looks",
+        "movement",
+        "next",
+        "not",
+        "o",
+        "of",
+        "oh",
+        "on",
+        "one",
+        "ones",
+        "open",
+        "over",
+        "overflowing",
+        "picture",
+        "plate",
+        "pretty",
+        "puddle",
+        "quit",
+        "running",
+        "said",
+        "sakes",
+        "same",
+        "see",
+        "she's",
+        "shrub",
+        "shushing",
+        "sink",
+        "sneaking",
+        "soon",
+        "standing",
+        "start",
+        "starts",
+        "steady",
+        "stealing",
+        "stool",
+        "th",
+        "that",
+        "that's",
+        "the",
+        "them",
+        "there",
+        "there's",
+        "they're",
+        "things",
+        "three",
+        "to",
+        "tree",
+        "tripod",
+        "trunk",
+        "two",
+        "uh",
+        "um",
+        "verb",
+        "very",
+        "water",
+        "whatever",
+        "window",
+        "wiping",
+        "with",
+        "word",
+        "yard",
+        "yards",
+        "yes",
+        "you"
+      ]
+    },
+    {
+      "filename": "017-4.cha",
+      "metadata": {
+        "PID": "11312/a-00090649-0",
+        "Languages": "eng",
+        "Participants": "PAR Participant, INV Investigator",
+        "ID": "eng|Pitt|INV|||||Investigator|||",
+        "Media": "017-4, audio",
+        "G": "Cookie"
+      },
+      "utterances": [
+        {
+          "speaker": "PAR",
+          "text": "are you ready ? [+ exc]",
+          "mor": "aux|be-Fin-Ind-Pres-S2 pron|you-Prs-Nom-S2 adj|ready-S1 ?"
+        },
+        {
+          "speaker": "INV",
+          "text": "mhm .",
+          "mor": "intj|mhm ."
+        },
+        {
+          "speaker": "PAR",
+          "text": "&-um well the sink is overflowing . \u00156597_6637\u0015",
+          "mor": "intj|well det|the-Def-Art noun|sink aux|be-Fin-Ind-Pres-S3 verb|overflow-Part-Pres-S ."
+        },
+        {
+          "speaker": "PAR",
+          "text": "mother is standing in the water like a jerk .",
+          "mor": "noun|mother aux|be-Fin-Ind-Pres-S3 verb|stand-Part-Pres-S adp|in det|the-Def-Art noun|water adp|like det|a-Ind-Art noun|jerk ."
+        },
+        {
+          "speaker": "PAR",
+          "text": "she's wiping the dishes also like a jerk . \u001510002_10904\u0015",
+          "mor": "noun|she verb|wipe-Part-Pres-S det|the-Def-Art noun|dish-Plur-Acc adv|also adp|like det|a-Ind-Art noun|jerk ."
+        },
+        {
+          "speaker": "PAR",
+          "text": "&-um there [//] (.) &-uh the [/] the [/] the boy is trying to get a cookie out of the cookie jar but boy he's about to fall off the stool . \u001510925_23095\u0015",
+          "mor": "det|the-Def-Art noun|boy aux|be-Fin-Ind-Pres-S3 verb|try-Part-Pres-S part|to verb|get-Inf-S det|a-Ind-Art noun|cookie-Acc adp|out adp|of det|the-Def-Art noun|cookie noun|jar cconj|but noun|boy noun|he-Plur adj|about-S1 part|to verb|fall-Inf-S adp|off det|the-Def-Art noun|stool ."
+        },
+        {
+          "speaker": "PAR",
+          "text": "his sister <has her> [/] has her <hand up> [//] finger up to her mouth like she's saying +\"/. \u001525487_27928\u0015",
+          "mor": "pron|his-Prs-Gen-S3 noun|sister verb|have-Fin-Ind-Pres-S3 pron|her-Prs-Gen-S3 noun|finger-Acc adp|up adp|to pron|her-Prs-Gen-S3 noun|mouth adp|like noun|she-Plur verb|say-Part-Pres-S +\"/."
+        },
+        {
+          "speaker": "PAR",
+          "text": "+\" shh .",
+          "mor": "intj|shh ."
+        },
+        {
+          "speaker": "PAR",
+          "text": "to be quiet +\".",
+          "mor": "part|to aux|be-Inf-S adj|quiet-S1 +\"."
+        },
+        {
+          "speaker": "PAR",
+          "text": "+\" don't let mother know what you're doin(g) .",
+          "mor": "adv|dont verb|let-Fin-Imp-S noun|mother-Acc verb|know-Inf-S det|what-Def-Int noun|your verb|do-Part-Pres-S ."
+        },
+        {
+          "speaker": "PAR",
+          "text": "and he's about to hand her a cookie .",
+          "mor": "cconj|and verb|he-Fin-Ind-Pres-S3 adv|about part|to verb|hand-Inf-S pron|her-Prs-Acc-S3 det|a-Ind-Art noun|cookie-Acc ."
+        },
+        {
+          "speaker": "PAR",
+          "text": "but &-um in a few moments it's going to be like total catastrophe . \u001536115_36254\u0015",
+          "mor": "cconj|but adp|in det|a-Ind-Art adj|few-S1 noun|moment-Plur pron|its-Prs-Gen-S3 verb|go-Part-Pres-S part|to aux|be-Inf-S adp|like adj|total-S1 noun|catastrophe ."
+        },
+        {
+          "speaker": "PAR",
+          "text": "mother [//] the reason the water's flowing out over the sink is because the water is running furiously . \u001537798_41988\u0015",
+          "mor": "det|the-Def-Art noun|reason det|the-Def-Art noun|water-Plur verb|flow-Ger-S adp|out adp|over det|the-Def-Art noun|sink aux|be-Fin-Ind-Pres-S3 sconj|because det|the-Def-Art noun|water aux|be-Fin-Ind-Pres-S3 verb|run-Part-Pres-S adv|furiously ."
+        },
+        {
+          "speaker": "PAR",
+          "text": "&-um and I'm looking out through the window . \u001546106_46166\u0015",
+          "mor": "cconj|and pron|im-Prs-Nom-S2 verb|look-Part-Pres-S adp|out adp|through det|the-Def-Art noun|window ."
+        },
+        {
+          "speaker": "PAR",
+          "text": "and I don't see anything going on out there .",
+          "mor": "cconj|and pron|I-Prs-Nom-S1 adv|dont verb|see-Fin-Ind-Pres-S1 pron|anything-Ind-S1 verb|go-Ger-S adp|on adp|out adv|there ."
+        },
+        {
+          "speaker": "PAR",
+          "text": "unless [//] &+m I don't +//. [+ exc]",
+          "mor": "pron|I-Prs-Nom-S1 aux|dont-Fin-S +//."
+        },
+        {
+          "speaker": "PAR",
+          "text": "that's just a bush I'm presuming or a plum pudding .",
+          "mor": "aux|that-Fin-Ind-Pres-S3 adv|just det|a-Ind-Art noun|bush noun|im noun|presuming-Ger cconj|or det|a-Ind-Art noun|plum noun|pudding-Ger ."
+        },
+        {
+          "speaker": "PAR",
+          "text": "&-um I told you the stools about to go over . \u001556924_57045\u0015",
+          "mor": "pron|I-Prs-Nom-S1 verb|tell-Fin-Ind-Past-S1-irr pron|you-Prs-Acc-S2 det|the-Def-Art noun|stool-Plur-Acc adp|about part|to verb|go-Inf-S adv|over ."
+        },
+        {
+          "speaker": "PAR",
+          "text": "in a moment there's going to be real chaos which will make what's going on in the picture look like nothing . \u001564396_66047\u0015",
+          "mor": "adp|in det|a-Ind-Art noun|moment aux|there-Fin-Ind-Pres-S3 verb|go-Part-Pres-S part|to aux|be-Inf-S adj|real-S1 noun|chaos pron|which-Rel-S1 aux|will-Fin-S verb|make-Inf-S noun|what-Plur-Acc verb|go-Ger-S adp|on adp|in det|the-Def-Art noun|picture verb|look-Inf-S adp|like pron|nothing-Neg-S1 ."
+        },
+        {
+          "speaker": "INV",
+          "text": "&=laughs .",
+          "mor": null
+        },
+        {
+          "speaker": "PAR",
+          "text": "the cookie jar is full .",
+          "mor": "det|the-Def-Art noun|cookie noun|jar aux|be-Fin-Ind-Pres-S3 adj|full-S1 ."
+        },
+        {
+          "speaker": "PAR",
+          "text": "the lid is off the cookie jar . \u001568923_69423\u0015",
+          "mor": "det|the-Def-Art noun|lid aux|be-Fin-Ind-Pres-S3 adp|off det|the-Def-Art noun|cookie noun|jar ."
+        },
+        {
+          "speaker": "PAR",
+          "text": "and the +//. [+ exc] \u001569444_69544\u0015",
+          "mor": "cconj|and det|the-Def-Art +//."
+        },
+        {
+          "speaker": "PAR",
+          "text": "do you want me to tell you all of those things ? [+ exc] \u001570264_70444\u0015",
+          "mor": "aux|do-Fin-Ind-Pres-S2 pron|you-Prs-Nom-S2 verb|want-Inf-S pron|I-Prs-Acc-S1 part|to verb|tell-Inf-S pron|you-Prs-Acc-S2 det|all-Def-Tot adp|of det|that-Def-Dem-Plur noun|thing-Plur ?"
+        },
+        {
+          "speaker": "INV",
+          "text": "tell me all [>] of the things you see going on in the picture .",
+          "mor": "verb|tell-Fin-Imp-S pron|I-Prs-Acc-S1 det|all-Def-Tot adp|of det|the-Def-Art noun|thing-Plur pron|you-Prs-Nom-S2 verb|see-Fin-Ind-Pres-S2 verb|go-Ger-S adp|on adp|in det|the-Def-Art noun|picture ."
+        },
+        {
+          "speaker": "PAR",
+          "text": "the [<] [/] the cabinet door has just swung open .",
+          "mor": "det|the-Def-Art noun|cabinet noun|door aux|have-Fin-Ind-Pres-S3 adv|just verb|swing-Part-Past-S-irr adj|open-S1 ."
+        },
+        {
+          "speaker": "PAR",
+          "text": "stool is about to fall . [+ gram]",
+          "mor": "noun|stool aux|be-Fin-Ind-Pres-S3 adj|about-S1 part|to verb|fall-Inf-S ."
+        },
+        {
+          "speaker": "PAR",
+          "text": "I guess I've just told you that . [+ exc]",
+          "mor": "pron|I-Prs-Nom-S1 verb|guess-Fin-Ind-Pres-S1 pron|ive-Prs-Nom-S1 adv|just verb|tell-Fin-Ind-Past-S3-irr pron|you-Prs-Acc-S2 pron|that-Dem ."
+        },
+        {
+          "speaker": "PAR",
+          "text": "with a terrible crash . [+ gram]",
+          "mor": "adp|with det|a-Ind-Art adj|terrible-S1 noun|crash ."
+        },
+        {
+          "speaker": "PAR",
+          "text": "&-um mother is daydreaming . \u001582435_82475\u0015",
+          "mor": "noun|mother aux|be-Fin-Ind-Pres-S3 verb|daydream-Part-Pres-S ."
+        },
+        {
+          "speaker": "PAR",
+          "text": "she doesn't even know what's going on behind her .",
+          "mor": "pron|she-Prs-Nom-S3 adv|doesnt adv|even verb|know-Fin-Ind-Pres-S3 pron|what-Dem-S1 verb|go-Ger-S adp|on adp|behind pron|her-Prs-Acc-S3 ."
+        },
+        {
+          "speaker": "PAR",
+          "text": "I think that's very important and sometimes typical . [+ exc]",
+          "mor": "pron|I-Prs-Nom-S1 verb|think-Fin-Ind-Pres-S1 aux|that-Fin-Ind-Pres-S3 adv|very adj|important-S1 cconj|and adv|sometimes adj|typical-S1 ."
+        },
+        {
+          "speaker": "PAR",
+          "text": "&-um seems to be all I can see . [+ exc]",
+          "mor": "verb|seem-Fin-Ind-Pres-S3 part|to aux|be-Inf-S det|all-Def-Tot pron|I-Prs-Nom-S1 aux|can-Fin-S verb|see-Inf-S ."
+        },
+        {
+          "speaker": "INV",
+          "text": "+< okay that's fine .",
+          "mor": "intj|okay pron|that-Dem~aux|be-Fin-Ind-Pres-S3 adj|fine-S1 ."
+        }
+      ],
+      "token_count": 286,
+      "vocabulary": [
+        "a",
+        "about",
+        "all",
+        "also",
+        "and",
+        "anything",
+        "are",
+        "be",
+        "because",
+        "behind",
+        "boy",
+        "bush",
+        "but",
+        "cabinet",
+        "can",
+        "catastrophe",
+        "chaos",
+        "cookie",
+        "crash",
+        "daydreaming",
+        "dishes",
+        "do",
+        "doesn't",
+        "doin",
+        "don't",
+        "door",
+        "even",
+        "exc",
+        "fall",
+        "few",
+        "fine",
+        "finger",
+        "flowing",
+        "full",
+        "furiously",
+        "g",
+        "get",
+        "go",
+        "going",
+        "gram",
+        "guess",
+        "hand",
+        "has",
+        "he's",
+        "her",
+        "his",
+        "i",
+        "i'm",
+        "i've",
+        "important",
+        "in",
+        "is",
+        "it's",
+        "jar",
+        "jerk",
+        "just",
+        "know",
+        "laughs",
+        "let",
+        "lid",
+        "like",
+        "look",
+        "looking",
+        "m",
+        "make",
+        "me",
+        "mhm",
+        "moment",
+        "moments",
+        "mother",
+        "mouth",
+        "nothing",
+        "of",
+        "off",
+        "okay",
+        "on",
+        "open",
+        "or",
+        "out",
+        "over",
+        "overflowing",
+        "picture",
+        "plum",
+        "presuming",
+        "pudding",
+        "quiet",
+        "ready",
+        "real",
+        "reason",
+        "running",
+        "saying",
+        "see",
+        "seems",
+        "she",
+        "she's",
+        "shh",
+        "sink",
+        "sister",
+        "sometimes",
+        "standing",
+        "stool",
+        "stools",
+        "swung",
+        "tell",
+        "terrible",
+        "that",
+        "that's",
+        "the",
+        "there",
+        "there's",
+        "things",
+        "think",
+        "those",
+        "through",
+        "to",
+        "told",
+        "total",
+        "trying",
+        "typical",
+        "uh",
+        "um",
+        "unless",
+        "up",
+        "very",
+        "want",
+        "water",
+        "water's",
+        "well",
+        "what",
+        "what's",
+        "which",
+        "will",
+        "window",
+        "wiping",
+        "with",
+        "you",
+        "you're"
+      ]
+    },
+    {
+      "filename": "021-0.cha",
+      "metadata": {
+        "PID": "11312/a-00090650-0",
+        "Languages": "eng",
+        "Participants": "PAR Participant, INV Investigator",
+        "ID": "eng|Pitt|INV|||||Investigator|||",
+        "Media": "021-0, audio",
+        "G": "Cookie"
+      },
+      "utterances": [
+        {
+          "speaker": "PAR",
+          "text": "further right . [+ exc] \u0015780_1510\u0015",
+          "mor": "adv|far adj|right-S1 ."
+        },
+        {
+          "speaker": "PAR",
+          "text": "oh &+tha there's a little girl reaching +... \u00152020_3861\u0015",
+          "mor": "intj|oh verb|there-Fin-Ind-Pres-S3 det|a-Ind-Art adj|little-S1 noun|girl-Acc verb|reach-Ger-S +..."
+        },
+        {
+          "speaker": "PAR",
+          "text": "oh let's say the little boy's reaching for the cookie in the jar . \u00154982_7725\u0015",
+          "mor": "intj|oh intj|let verb|say-Fin-Imp-S det|the-Def-Art adj|little-S1 noun|boy-Plur-Acc verb|reach-Ger-S adp|for det|the-Def-Art noun|cookie adp|in det|the-Def-Art noun|jar ."
+        },
+        {
+          "speaker": "PAR",
+          "text": "and the &-uh stool is falling over . \u00158005_10195\u0015",
+          "mor": "cconj|and det|the-Def-Art noun|stool aux|be-Fin-Ind-Pres-S3 verb|fall-Part-Pres-S adv|over ."
+        },
+        {
+          "speaker": "PAR",
+          "text": "the little girl's reaching up to the little boy for the cookie . \u001510606_13589\u0015",
+          "mor": "det|the-Def-Art adj|little-S1 noun|girl-Plur verb|reach-Ger-S adp|up adp|to det|the-Def-Art adj|little-S1 noun|boy adp|for det|the-Def-Art noun|cookie ."
+        },
+        {
+          "speaker": "PAR",
+          "text": "and the mother apparently is washing the dishes and the water is running over . \u001514335_18820\u0015",
+          "mor": "cconj|and det|the-Def-Art noun|mother adv|apparently aux|be-Fin-Ind-Pres-S3 verb|wash-Part-Pres-S det|the-Def-Art noun|dish-Plur-Acc cconj|and det|the-Def-Art noun|water aux|be-Fin-Ind-Pres-S3 verb|run-Part-Pres-S adv|over ."
+        },
+        {
+          "speaker": "PAR",
+          "text": "&-uh she's probably busy looking out <at the> [/] at the garden . \u001519962_24218\u0015",
+          "mor": "verb|she-Fin-Ind-Pres-S3 adv|probably adj|busy-S1 verb|look-Part-Pres-S adp|out adp|at det|the-Def-Art noun|garden ."
+        },
+        {
+          "speaker": "PAR",
+          "text": "and <the cups and saucer> [//] the cups and the saucer are on the side . \u001524648_28512\u0015",
+          "mor": "cconj|and det|the-Def-Art noun|cup-Plur cconj|and det|the-Def-Art noun|saucer aux|be-Fin-Ind-Pres-P3 adp|on det|the-Def-Art noun|side ."
+        },
+        {
+          "speaker": "PAR",
+          "text": "what else do you want ? [+ exc] \u001529771_30321\u0015",
+          "mor": "pron|what-Int-S1 adv|else aux|do-Fin-Ind-Pres-S2 pron|you-Prs-Nom-S2 verb|want-Inf-S ?"
+        },
+        {
+          "speaker": "PAR",
+          "text": "&+s things that I see ? [+ exc] \u001530692_31327\u0015",
+          "mor": "noun|thing-Plur pron|that-Rel pron|I-Prs-Nom-S1 verb|see-Fin-Ind-Pres-S1 ?"
+        },
+        {
+          "speaker": "INV",
+          "text": "anything else +/? \u001531492_31958\u0015",
+          "mor": "pron|anything-Ind-S1 adj|else-S1 +/?"
+        },
+        {
+          "speaker": "PAR",
+          "text": "+< you mean , curtains ? [+ exc] \u001532013_32679\u0015",
+          "mor": "pron|you-Prs-Nom-S2 verb|mean-Fin-Ind-Pres-S2 cm|cm noun|curtain-Plur ?"
+        },
+        {
+          "speaker": "INV",
+          "text": "&-um just anything that's going on . \u001533294_34720\u0015",
+          "mor": "adv|just pron|anything-Ind-S1 pron|that-Rel-S1 verb|go-Ger-S adp|on ."
+        },
+        {
+          "speaker": "INV",
+          "text": "is there anything else goin(g) on ? \u001534856_35781\u0015",
+          "mor": "verb|be-Fin-Ind-Pres-S3 pron|there-Int-S1 pron|anything-Ind-S1 adj|else-S1 verb|go-Part-Pres-S adp|on ?"
+        },
+        {
+          "speaker": "PAR",
+          "text": "&+mm no I think that's about it . [+ exc] \u001536458_37379\u0015",
+          "mor": "intj|no pron|I-Prs-Nom-S1 verb|think-Fin-Ind-Pres-S1 aux|that-Fin-Ind-Pres-S3 adp|about pron|it-Prs-Acc-S3 ."
+        },
+        {
+          "speaker": "INV",
+          "text": "okay good . \u001537759_38220\u0015",
+          "mor": "intj|okay adj|good-S1 ."
+        }
+      ],
+      "token_count": 122,
+      "vocabulary": [
+        "a",
+        "about",
+        "and",
+        "anything",
+        "apparently",
+        "are",
+        "at",
+        "boy",
+        "boy's",
+        "busy",
+        "cookie",
+        "cups",
+        "curtains",
+        "dishes",
+        "do",
+        "else",
+        "exc",
+        "falling",
+        "for",
+        "further",
+        "g",
+        "garden",
+        "girl",
+        "girl's",
+        "goin",
+        "going",
+        "good",
+        "i",
+        "in",
+        "is",
+        "it",
+        "jar",
+        "just",
+        "let's",
+        "little",
+        "looking",
+        "mean",
+        "mm",
+        "mother",
+        "no",
+        "oh",
+        "okay",
+        "on",
+        "out",
+        "over",
+        "probably",
+        "reaching",
+        "right",
+        "running",
+        "s",
+        "saucer",
+        "say",
+        "see",
+        "she's",
+        "side",
+        "stool",
+        "tha",
+        "that",
+        "that's",
+        "the",
+        "there",
+        "there's",
+        "things",
+        "think",
+        "to",
+        "uh",
+        "um",
+        "up",
+        "want",
+        "washing",
+        "water",
+        "what",
+        "you"
+      ]
+    },
+    {
+      "filename": "022-0.cha",
+      "metadata": {
+        "PID": "11312/a-00090655-0",
+        "Languages": "eng",
+        "Participants": "INV Investigator, PAR Participant",
+        "ID": "eng|Pitt|PAR|74;|female|Control||Participant|27||",
+        "Media": "022-0, audio",
+        "G": "Cookie"
+      },
+      "utterances": [
+        {
+          "speaker": "INV",
+          "text": "okay and you can begin right there . \u00151440_3010\u0015",
+          "mor": "intj|okay cconj|and pron|you-Prs-Nom-S2 aux|can-Fin-S verb|begin-Inf-S adv|right adv|there ."
+        },
+        {
+          "speaker": "PAR",
+          "text": "well , the little boy's on a stepstool trying to reach the cookie jar . \u00156924_11224\u0015",
+          "mor": "intj|well cm|cm det|the-Def-Art adj|little-S1 noun|boy-Plur adp|on det|a-Ind-Art noun|stepstool verb|try-Ger-S part|to verb|reach-Inf-S det|the-Def-Art noun|cookie noun|jar-Acc ."
+        },
+        {
+          "speaker": "PAR",
+          "text": "and he's falling . \u001511367_12528\u0015",
+          "mor": "cconj|and pron|he-Prs-Nom-S3~aux|be-Fin-Ind-Pres-S3 verb|fall-Part-Pres-S ."
+        },
+        {
+          "speaker": "PAR",
+          "text": "and the girl is reachin(g) for a cookie he has in his hand . \u001512871_17256\u0015",
+          "mor": "cconj|and det|the-Def-Art noun|girl aux|be-Fin-Ind-Pres-S3 verb|reach-Part-Pres-S adp|for det|a-Ind-Art noun|cookie pron|he-Prs-Nom-S3 verb|have-Fin-Ind-Pres-S3 adp|in pron|his-Prs-Gen-S3 noun|hand ."
+        },
+        {
+          "speaker": "PAR",
+          "text": "the mama's washin(g) dishes . \u001518319_20474\u0015",
+          "mor": "det|the-Def-Art noun|mama~part|s noun|washing-Ger noun|dish-Plur ."
+        },
+        {
+          "speaker": "PAR",
+          "text": "and the sink's running over . \u001520743_21957\u0015",
+          "mor": "cconj|and det|the-Def-Art noun|sink-Plur noun|running-Ger adp|over ."
+        },
+        {
+          "speaker": "PAR",
+          "text": "and she's drying a plate . \u001522145_24066\u0015",
+          "mor": "cconj|and noun|she verb|drying-Part-Pres-S det|a-Ind-Art noun|plate-Acc ."
+        },
+        {
+          "speaker": "PAR",
+          "text": "and the sink is runnin(g) over down on the floor . \u001524789_27151\u0015",
+          "mor": "cconj|and det|the-Def-Art noun|sink aux|be-Fin-Ind-Pres-S3 verb|run-Part-Pres-S adp|over adv|down adp|on det|the-Def-Art noun|floor ."
+        },
+        {
+          "speaker": "PAR",
+          "text": "the window is up . \u001527872_29232\u0015",
+          "mor": "det|the-Def-Art noun|window aux|be-Fin-Ind-Pres-S3 adv|up ."
+        },
+        {
+          "speaker": "PAR",
+          "text": "and is that &+a all ? [+ exc] \u001531535_34542\u0015",
+          "mor": "cconj|and aux|be-Fin-Ind-Pres-S3 pron|that-Dem det|all-Def-Tot ?"
+        },
+        {
+          "speaker": "PAR",
+          "text": "you want something else ? [+ exc] \u001535250_36270\u0015",
+          "mor": "pron|you-Prs-Nom-S2 verb|want-Fin-Ind-Pres-S2 pron|something-Ind-S1 adj|else-S1 ?"
+        },
+        {
+          "speaker": "INV",
+          "text": "+< anything else ? \u001536119_36130\u0015",
+          "mor": "pron|anything-Ind-S1 adj|else-S1 ?"
+        },
+        {
+          "speaker": "INV",
+          "text": "is there anything else ? \u001536459_37040\u0015",
+          "mor": "verb|be-Fin-Ind-Pres-S3 pron|there-Int-S1 pron|anything-Ind-S1 adj|else-S1 ?"
+        },
+        {
+          "speaker": "PAR",
+          "text": "oh , well , there's a plate and two cups on the counter . \u001537920_43403\u0015",
+          "mor": "intj|oh cm|cm intj|well cm|cm verb|there-Fin-Ind-Pres-S3 det|a-Ind-Art noun|plate-Acc cconj|and num|two noun|cup-Plur adp|on det|the-Def-Art noun|counter ."
+        },
+        {
+          "speaker": "PAR",
+          "text": "(.) <is that> [/] is that enough ? [+ exc] \u001550691_51552\u0015",
+          "mor": "aux|be-Fin-Ind-Pres-S3 pron|that-Dem adj|enough-S1 ?"
+        },
+        {
+          "speaker": "INV",
+          "text": "that's fine , sure . \u001551820_52530\u0015",
+          "mor": "aux|that-Fin-Ind-Pres-S3 adj|fine-S1 cm|cm adj|sure-S1 ."
+        },
+        {
+          "speaker": "PAR",
+          "text": "+< I mean , is that +..? [+ exc]",
+          "mor": "pron|I-Prs-Nom-S1 verb|mean-Fin-Ind-Pres-S1 cm|cm aux|be-Fin-Ind-Pres-S3 pron|that-Dem +..?"
+        },
+        {
+          "speaker": "INV",
+          "text": "that's good . \u001553546_53955\u0015",
+          "mor": "pron|that-Dem~aux|be-Fin-Ind-Pres-S3 adj|good-S1 ."
+        },
+        {
+          "speaker": "PAR",
+          "text": "+< I [/] I don't see anything +/. [+ exc] \u001554020_54630\u0015",
+          "mor": "pron|I-Prs-Nom-S1 aux|do-Fin-Ind-Pres-S1~part|not verb|see-Inf-S pron|anything-Ind-S1 +/."
+        }
+      ],
+      "token_count": 117,
+      "vocabulary": [
+        "a",
+        "all",
+        "and",
+        "anything",
+        "begin",
+        "boy's",
+        "can",
+        "cookie",
+        "counter",
+        "cups",
+        "dishes",
+        "don't",
+        "down",
+        "drying",
+        "else",
+        "enough",
+        "exc",
+        "falling",
+        "fine",
+        "floor",
+        "for",
+        "g",
+        "girl",
+        "good",
+        "hand",
+        "has",
+        "he",
+        "he's",
+        "his",
+        "i",
+        "in",
+        "is",
+        "jar",
+        "little",
+        "mama's",
+        "mean",
+        "oh",
+        "okay",
+        "on",
+        "over",
+        "plate",
+        "reach",
+        "reachin",
+        "right",
+        "runnin",
+        "running",
+        "see",
+        "she's",
+        "sink",
+        "sink's",
+        "something",
+        "stepstool",
+        "sure",
+        "that",
+        "that's",
+        "the",
+        "there",
+        "there's",
+        "to",
+        "trying",
+        "two",
+        "up",
+        "want",
+        "washin",
+        "well",
+        "window",
+        "you"
+      ]
+    },
+    {
+      "filename": "034-0.cha",
+      "metadata": {
+        "PID": "11312/a-00090660-0",
+        "Languages": "eng",
+        "Participants": "INV Investigator, PAR Participant",
+        "ID": "eng|Pitt|PAR|70;|male|Control||Participant|29||",
+        "Media": "034-0, audio",
+        "G": "Cookie"
+      },
+      "utterances": [
+        {
+          "speaker": "INV",
+          "text": "here it is . \u0015424_810\u0015",
+          "mor": "adv|here pron|it-Prs-Nom-S3 aux|be-Fin-Ind-Pres-S3 ."
+        },
+        {
+          "speaker": "PAR",
+          "text": "a boy is getting a cookie out of a cookie jar in a high shelf in a very precarious position on a stool . \u00158402_15873\u0015",
+          "mor": "det|a-Ind-Art noun|boy aux|be-Fin-Ind-Pres-S3 verb|get-Part-Pres-S det|a-Ind-Art noun|cookie-Acc adp|out adp|of det|a-Ind-Art noun|cookie noun|jar adp|in det|a-Ind-Art adj|high-S1 noun|shelf adp|in det|a-Ind-Art adv|very adj|precarious-S1 noun|position adp|on det|a-Ind-Art noun|stool ."
+        },
+        {
+          "speaker": "PAR",
+          "text": "looks dangerous . [+ gram] \u001516626_17386\u0015",
+          "mor": "verb|look-Fin-Ind-Pres-S3 adj|dangerous-S1 ."
+        },
+        {
+          "speaker": "PAR",
+          "text": "the mother is washing dishes and not paying attention to what she's doing . \u001519352_23402\u0015",
+          "mor": "det|the-Def-Art noun|mother aux|be-Fin-Ind-Pres-S3 verb|wash-Part-Pres-S noun|dish-Plur-Acc cconj|and part|not verb|pay-Part-Pres-S noun|attention-Acc adp|to pron|what-Int-S1 aux|she-Fin-Ind-Pres-S3 verb|do-Part-Pres-S ."
+        },
+        {
+          "speaker": "PAR",
+          "text": "the &-uh sink is overflowing . \u001524399_25949\u0015",
+          "mor": "det|the-Def-Art noun|sink aux|be-Fin-Ind-Pres-S3 verb|overflow-Part-Pres-S ."
+        },
+        {
+          "speaker": "PAR",
+          "text": "there's a nice peaceful sign [* s:uk] outside . \u001527501_29426\u0015",
+          "mor": "verb|there-Fin-Ind-Pres-S3 det|a-Ind-Art adj|nice-S1 adj|peaceful-S1 noun|sign-Acc adv|outside ."
+        },
+        {
+          "speaker": "PAR",
+          "text": "fortunately there's nothing happening out there . \u001531343_33373\u0015",
+          "mor": "adv|fortunately verb|there-Fin-Ind-Pres-S3 pron|nothing-Neg-S1 verb|happen-Ger-S adp|out adv|there ."
+        },
+        {
+          "speaker": "PAR",
+          "text": "(.) the [//] &-uh there's dishes on the &+s counter in the sink . \u001536530_40440\u0015",
+          "mor": "verb|there-Fin-Ind-Pres-S3 noun|dish-Plur-Acc adp|on det|the-Def-Art noun|counter adp|in det|the-Def-Art noun|sink ."
+        },
+        {
+          "speaker": "PAR",
+          "text": "(...) that's it . [+ exc]",
+          "mor": "aux|that-Fin-Ind-Pres-S3 pron|it-Prs-Nom-S3 ."
+        },
+        {
+          "speaker": "INV",
+          "text": "anything else ? \u001552801_53148\u0015",
+          "mor": "pron|anything-Ind-S1 adj|else-S1 ?"
+        },
+        {
+          "speaker": "PAR",
+          "text": "(...) well except that there's a boy and a girl and the mother . \u001579548_81725\u0015",
+          "mor": "intj|well adp|except sconj|that verb|there-Fin-Ind-Pres-S3 det|a-Ind-Art noun|boy cconj|and det|a-Ind-Art noun|girl cconj|and det|the-Def-Art noun|mother ."
+        },
+        {
+          "speaker": "INV",
+          "text": "okay . \u001582110_82513\u0015",
+          "mor": "intj|okay ."
+        },
+        {
+          "speaker": "PAR",
+          "text": "+< the other woman &=laughs . [+ gram] \u001582432_82822\u0015",
+          "mor": "det|the-Def-Art adj|other-S1 noun|woman ."
+        },
+        {
+          "speaker": "INV",
+          "text": "good . \u001583351_83765\u0015",
+          "mor": "adj|good-S1 ."
+        },
+        {
+          "speaker": "INV",
+          "text": "okay . \u001584012_84332\u0015",
+          "mor": "intj|okay ."
+        },
+        {
+          "speaker": "PAR",
+          "text": "+< but I did mention that . [+ exc] \u001584432_85811\u0015",
+          "mor": "cconj|but pron|I-Prs-Nom-S1 aux|do-Fin-Ind-Past-S1-irr verb|mention-Inf-S pron|that-Dem ."
+        },
+        {
+          "speaker": "PAR",
+          "text": "I said the boy was getting a cookie for the girl and the mother was washing dishes . [+ exc] \u001585832_89522\u0015",
+          "mor": "pron|I-Prs-Nom-S1 verb|say-Fin-Ind-Past-S1-irr det|the-Def-Art noun|boy aux|be-Fin-Ind-Past-S3-irr verb|get-Part-Pres-S det|a-Ind-Art noun|cookie-Acc adp|for det|the-Def-Art noun|girl cconj|and det|the-Def-Art noun|mother aux|be-Fin-Ind-Past-S3-irr verb|wash-Part-Pres-S noun|dish-Plur-Acc ."
+        },
+        {
+          "speaker": "INV",
+          "text": "okay . \u001590158_90578\u0015",
+          "mor": "intj|okay ."
+        },
+        {
+          "speaker": "INV",
+          "text": "good . \u001590679_91118\u0015",
+          "mor": "adj|good-S1 ."
+        }
+      ],
+      "token_count": 123,
+      "vocabulary": [
+        "a",
+        "and",
+        "anything",
+        "attention",
+        "boy",
+        "but",
+        "cookie",
+        "counter",
+        "dangerous",
+        "did",
+        "dishes",
+        "doing",
+        "else",
+        "exc",
+        "except",
+        "for",
+        "fortunately",
+        "getting",
+        "girl",
+        "good",
+        "gram",
+        "happening",
+        "here",
+        "high",
+        "i",
+        "in",
+        "is",
+        "it",
+        "jar",
+        "laughs",
+        "looks",
+        "mention",
+        "mother",
+        "nice",
+        "not",
+        "nothing",
+        "of",
+        "okay",
+        "on",
+        "other",
+        "out",
+        "outside",
+        "overflowing",
+        "paying",
+        "peaceful",
+        "position",
+        "precarious",
+        "s",
+        "said",
+        "she's",
+        "shelf",
+        "sign",
+        "sink",
+        "stool",
+        "that",
+        "that's",
+        "the",
+        "there",
+        "there's",
+        "to",
+        "uh",
+        "uk",
+        "very",
+        "was",
+        "washing",
+        "well",
+        "what",
+        "woman"
+      ]
+    }
+  ],
+  "statistics": {
+    "global_vocabulary": [
+      "a",
+      "about",
+      "age",
+      "air",
+      "all",
+      "almost",
+      "alright",
+      "also",
+      "and",
+      "another",
+      "anything",
+      "apparently",
+      "are",
+      "around",
+      "as",
+      "at",
+      "attention",
+      "aware",
+      "be",
+      "because",
+      "begin",
+      "behind",
+      "better",
+      "between",
+      "blowin",
+      "blowing",
+      "bottom",
+      "boy",
+      "boy's",
+      "breeze",
+      "building",
+      "bush",
+      "bushes",
+      "busy",
+      "but",
+      "c",
+      "cabinet",
+      "call",
+      "can",
+      "catastrophe",
+      "cause",
+      "certain",
+      "chaos",
+      "child",
+      "children",
+      "clears",
+      "comes",
+      "cookie",
+      "cookies",
+      "counter",
+      "crash",
+      "crooked",
+      "cupboard",
+      "cupboards",
+      "cups",
+      "curtains",
+      "curved",
+      "dangerous",
+      "daydreaming",
+      "did",
+      "different",
+      "dirty",
+      "dishes",
+      "do",
+      "doesn't",
+      "doin",
+      "doing",
+      "don't",
+      "door",
+      "down",
+      "dress",
+      "dressed",
+      "drying",
+      "eat",
+      "eight",
+      "else",
+      "em",
+      "enough",
+      "even",
+      "everything",
+      "evidently",
+      "exc",
+      "except",
+      "f",
+      "fact",
+      "fairly",
+      "fall",
+      "fallin",
+      "falling",
+      "faucet",
+      "feet",
+      "few",
+      "fine",
+      "finger",
+      "finished",
+      "floor",
+      "flowing",
+      "for",
+      "fortunately",
+      "from",
+      "full",
+      "furiously",
+      "further",
+      "g",
+      "garage",
+      "garden",
+      "gentle",
+      "get",
+      "getting",
+      "girl",
+      "girl's",
+      "glasses",
+      "go",
+      "god's",
+      "goin",
+      "going",
+      "gonna",
+      "good",
+      "got",
+      "gram",
+      "grass",
+      "great",
+      "ground",
+      "guess",
+      "hafta",
+      "hand",
+      "handin",
+      "handing",
+      "handle",
+      "handles",
+      "hanging",
+      "happening",
+      "has",
+      "hasta",
+      "have",
+      "he",
+      "he's",
+      "hear",
+      "her",
+      "here",
+      "hers",
+      "high",
+      "his",
+      "hm",
+      "hot",
+      "house",
+      "how",
+      "i",
+      "i'll",
+      "i'm",
+      "i've",
+      "identifying",
+      "if",
+      "important",
+      "in",
+      "including",
+      "into",
+      "is",
+      "it",
+      "it's",
+      "jar",
+      "jerk",
+      "just",
+      "kid",
+      "kids",
+      "kind",
+      "kitchen",
+      "kitchen's",
+      "know",
+      "lady",
+      "laughs",
+      "left",
+      "let",
+      "let's",
+      "lid",
+      "lid's",
+      "like",
+      "little",
+      "look",
+      "looking",
+      "looks",
+      "m",
+      "make",
+      "mama's",
+      "me",
+      "mean",
+      "mention",
+      "mhm",
+      "mm",
+      "moment",
+      "moments",
+      "more",
+      "mother",
+      "mother's",
+      "mouth",
+      "movement",
+      "much",
+      "must",
+      "my",
+      "next",
+      "nice",
+      "nine",
+      "no",
+      "not",
+      "nothing",
+      "notice",
+      "o",
+      "oblivious",
+      "obviously",
+      "of",
+      "off",
+      "oh",
+      "okay",
+      "old",
+      "on",
+      "one",
+      "ones",
+      "open",
+      "or",
+      "other",
+      "ou",
+      "out",
+      "outside",
+      "outta",
+      "over",
+      "overflow",
+      "overflowing",
+      "overspilling",
+      "p",
+      "paying",
+      "peaceful",
+      "perhaps",
+      "picture",
+      "plate",
+      "plates",
+      "plum",
+      "position",
+      "pouring",
+      "precarious",
+      "presuming",
+      "pretty",
+      "probably",
+      "pudding",
+      "puddle",
+      "put",
+      "quiet",
+      "quit",
+      "r",
+      "reach",
+      "reachin",
+      "reaching",
+      "reacting",
+      "ready",
+      "real",
+      "really",
+      "reason",
+      "right",
+      "runnin",
+      "running",
+      "s",
+      "said",
+      "sakes",
+      "same",
+      "sandals",
+      "saucer",
+      "say",
+      "saying",
+      "scene",
+      "see",
+      "seems",
+      "seven",
+      "she",
+      "she's",
+      "shelf",
+      "shh",
+      "shocked",
+      "shoes",
+      "short",
+      "shortly",
+      "shrub",
+      "shrubbery",
+      "shushing",
+      "side",
+      "sideways",
+      "sign",
+      "sill",
+      "sink",
+      "sink's",
+      "sister",
+      "sitting",
+      "size",
+      "sleeve",
+      "sleeveless",
+      "sneaking",
+      "some",
+      "somebody",
+      "somebody's",
+      "something",
+      "sometimes",
+      "somewhere",
+      "soon",
+      "standing",
+      "start",
+      "starts",
+      "steady",
+      "stealin",
+      "stealing",
+      "stepstool",
+      "stink",
+      "stool",
+      "stool's",
+      "stools",
+      "summer",
+      "summertime",
+      "sure",
+      "swung",
+      "takin",
+      "tell",
+      "tennis",
+      "terrible",
+      "th",
+      "tha",
+      "thank",
+      "that",
+      "that's",
+      "the",
+      "their",
+      "them",
+      "there",
+      "there's",
+      "they're",
+      "things",
+      "think",
+      "thinking",
+      "those",
+      "three",
+      "throat",
+      "through",
+      "tidy",
+      "til",
+      "tip",
+      "to",
+      "told",
+      "tops",
+      "total",
+      "tree",
+      "tripod",
+      "trunk",
+      "tryin",
+      "trying",
+      "tumbles",
+      "twins",
+      "two",
+      "typical",
+      "uh",
+      "uk",
+      "um",
+      "un",
+      "unaware",
+      "unless",
+      "up",
+      "verb",
+      "very",
+      "w-ret",
+      "wait",
+      "walk",
+      "want",
+      "warm",
+      "was",
+      "washin",
+      "washing",
+      "water",
+      "water's",
+      "weather",
+      "well",
+      "wet",
+      "what",
+      "what's",
+      "whatever",
+      "when",
+      "which",
+      "will",
+      "window",
+      "window's",
+      "wiping",
+      "with",
+      "woman",
+      "word",
+      "yard",
+      "yards",
+      "years",
+      "yes",
+      "you",
+      "you're"
+    ],
+    "by_author": {
+      "PAR": {
+        "utterances": 169,
+        "tokens": 1521
+      },
+      "INV": {
+        "utterances": 37,
+        "tokens": 154
+      }
+    }
+  }
+}
